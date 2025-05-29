@@ -4,6 +4,7 @@
 # [S1] = https://www.legislation.gov.uk/ukpga/Geo6/14-15/39/schedules/enacted
 # [S2] = https://www.legislation.gov.uk/changes/chron-tables/private/33
 # [S3] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/I
+# [S4] = https://www.legislation.gov.uk/ukpga/1969/52/schedule/part/IV/crossheading/enactments-relating-to-sunday-observance/enacted
 REGNAL_NAMES_ABBREVIATION_LIST:
 - "Car. 3"
 - "Eliz. 2" # [S2]
@@ -22,6 +23,9 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Mar. 2"
 - "Jac. 2"
 - "Car. 2"
+- "Chas. 2" # [S4]
+- "Car. 1"
+- "Chas. 1"
 - "Jac. 1"
 - "Eliz."
 - "Mar."
