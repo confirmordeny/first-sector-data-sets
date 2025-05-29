@@ -7,6 +7,7 @@
 # [S3] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/I
 # [S4] = https://www.legislation.gov.uk/ukpga/1969/52/schedule/part/IV/crossheading/enactments-relating-to-sunday-observance/enacted
 # [S5] = https://www.legislation.gov.uk/ukpga/Geo5/15-16/5/schedule/FIRST/enacted
+# [S6] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/XI
 REGNAL_NAMES_ABBREVIATION_LIST:
 - "Eliz. 2" # [S2]
 - "Geo. 6" # [S3]
@@ -15,7 +16,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Edw. 7" # [S2]
 - "Vict." # [S3]
 - "Will. 4" # [S3]
-- "Geo. 4"
+- "Geo. 4" # [S6]
 - "Geo. 3"
 - "Geo. 2"
 - "Geo. 1"
