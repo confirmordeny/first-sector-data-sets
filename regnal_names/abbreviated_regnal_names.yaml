@@ -25,7 +25,8 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Chas. 1" # [S4]
 - "Jac. 1" # [S16]
 - "Ja. 1" # [S17]
-- "Eliz." # [S18] (note: "Eliz. 1" is not used)
+- "Eliz." # [S18] 
+- "Eliz. 1"
 - "Ph. & M." # [S7]
 - "Mar." # [S19]
 - "Edw. 6" [S20]
