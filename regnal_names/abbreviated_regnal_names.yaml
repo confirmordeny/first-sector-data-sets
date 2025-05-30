@@ -26,7 +26,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Jac. 1" # [S16]
 - "Ja. 1" # [S17]
 - "Eliz." # [S18] 
-- "Eliz. 1"
+- "Eliz. 1" # [S25]
 - "Ph. & M." # [S7]
 - "Mar." # [S19]
 - "Edw. 6" [S20]
@@ -38,13 +38,13 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Edw. 5"
 - "Edw. 4" # [S24]
 - "Hen. 6" # [S4]
-- "Hen. 5"
-- "Hen. 4"
-- "Ric. 2"
+- "Hen. 5" # [S25]
+- "Hen. 4" # [S25]
+- "Ric. 2" # [S25]
 - "Rich. 2"
-- "Edw. 3"
+- "Edw. 3" # [S25]
 - "Edw. 2"
-- "Edw. 1"
+- "Edw. 1" # [S25]
 - "Hen. 3"
 - "Joh."
 - "Ric. 1"
@@ -76,3 +76,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S22] = https://www.jstor.org/stable/3304343?seq=1
 # [S23] = https://www.legislation.gov.uk/ukpga/Geo6/11-12/62/pdfs/ukpga_19480062_en.pdf
 # [S24] = https://www.legislation.gov.uk/ukpga/Will4/1-2/32/enacted
+# [S25] = https://www.legislation.gov.uk/ukpga/1967/58
