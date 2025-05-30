@@ -18,7 +18,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Will. & Mar" # [S6]
 - "Will. 3" # [S12]
 - "Jac. 2" # [S5]
-- "Ja. 2"
+- "Ja. 2" # [S13]
 - "Car. 2"
 - "Chas. 2" # [S4]
 - "Car. 1"
@@ -59,3 +59,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S10] = https://www.legislation.gov.uk/changes/chron-tables/private/9
 # [S11] = https://www.legislation.gov.uk/changes/chron-tables/private/6
 # [S12] = https://www.legislation.gov.uk/ukpga/1967/58/schedule/3/part/III
+# [S13] = https://www.legislation.gov.uk/changes/chron-tables/private/4
