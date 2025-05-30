@@ -9,6 +9,7 @@
 # [S5] = https://www.legislation.gov.uk/ukpga/Geo5/15-16/5/schedule/FIRST/enacted
 # [S6] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/XI
 # [S7] = https://www.legislation.gov.uk/changes/chron-tables/private/1
+# [S8] = https://www.legislation.gov.uk/changes/chron-tables/local/1
 REGNAL_NAMES_ABBREVIATION_LIST:
 - "Eliz. 2" # [S2]
 - "Geo. 6" # [S3]
@@ -18,7 +19,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Vict." # [S3]
 - "Will. 4" # [S3]
 - "Geo. 4" # [S6]
-- "Geo. 3"
+- "Geo. 3" # [S8]
 - "Geo. 2"
 - "Geo. 1"
 - "Ann."
