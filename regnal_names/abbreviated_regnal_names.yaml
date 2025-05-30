@@ -31,7 +31,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Edw. 6" [S20]
 - "Hen. 8" # [S5]
 - "Hen. 7" # [S21]
-- "Rich. 3"
+- "Rich. 3" # [S22]
 # Edward V never summoned Parliament however "Edw. 5" is used to reference law reports.
 - "Edw. 5"
 - "Edw. 4"
@@ -68,3 +68,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S19] = https://www.legislation.gov.uk/ukpga/Vict/23-24/32/enacted
 # [S20] = https://www.legislation.gov.uk/ukpga/Geo5/15-16/23/schedules/enacted
 # [S21] = https://www.legislation.gov.uk/ukpga/1993/50/schedule/1/part/V
+# [S22] = https://www.jstor.org/stable/3304343?seq=1
