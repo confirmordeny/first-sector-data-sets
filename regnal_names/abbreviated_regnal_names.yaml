@@ -13,7 +13,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Geo. 4" # [S6]
 - "Geo. 3" # [S8]
 - "Geo. 2" # [S9]
-- "Geo. 1"
+- "Geo. 1" # [S10]
 - "Ann."
 - "Will. & Mar" # [S6]
 - "Will. 3"
@@ -57,3 +57,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S7] = https://www.legislation.gov.uk/changes/chron-tables/private/1
 # [S8] = https://www.legislation.gov.uk/changes/chron-tables/local/1
 # [S9] = https://www.legislation.gov.uk/changes/chron-tables/private/10
+# [S10] = https://www.legislation.gov.uk/changes/chron-tables/private/9
