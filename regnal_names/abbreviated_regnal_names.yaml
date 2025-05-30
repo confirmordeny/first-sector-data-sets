@@ -25,7 +25,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Chas. 1" # [S4]
 - "Jac. 1" # [S16]
 - "Ja. 1" # [S17]
-- "Eliz."
+- "Eliz." # [S18] (note: "Eliz. 1" is not used)
 - "Ph. & M." # [S7]
 - "Mar."
 - "Edw. 6"
@@ -64,3 +64,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S15] = https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/101/enacted
 # [S16] = https://www.legislation.gov.uk/ukpga/Vict/56-57/71/schedule/enacted
 # [S17] = https://www.legislation.gov.uk/changes/chron-tables/private/2
+# [S18] = https://www.legislation.gov.uk/ukpga/Eliz2/5-6/56/schedule/ELEVENTH/enacted
