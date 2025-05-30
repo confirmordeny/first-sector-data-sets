@@ -23,7 +23,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Chas. 2" # [S4]
 - "Car. 1" # [S15]
 - "Chas. 1" # [S4]
-- "Jac. 1"
+- "Jac. 1" # [S16]
 - "Ja. 1"
 - "Eliz."
 - "Ph. & M." # [S7]
@@ -62,3 +62,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S13] = https://www.legislation.gov.uk/changes/chron-tables/private/4
 # [S14] = https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/enacted
 # [S15] = https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/101/enacted
+# [S16] = https://www.legislation.gov.uk/ukpga/Vict/56-57/71/schedule/enacted
