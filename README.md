@@ -2,6 +2,10 @@
 Data sets relating to the public sector.
 Started in late May 2025.
 
+## Contributing
+
+We welcome contributions.
+
 ## Code of conduct
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
