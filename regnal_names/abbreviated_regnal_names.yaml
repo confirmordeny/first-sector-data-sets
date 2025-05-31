@@ -117,6 +117,10 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   Henry I: [N2]
   - "H. 1" # [S35]
   - "Hen. 1" # [S26]
+  William II:
+  - "Wm. 2" # [S41]
+  William I:
+  - "Wm. 1" # [S41]
 #
 # Notes:
 # [N1] = Queen Elizabeth II was the last monarch for which regnal years were used for Acts of Parliament
@@ -176,3 +180,6 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # https://www.google.co.uk/books/edition/The_First_Part_of_the_Institutes_of_the/GOgKAAAAYAAJ
 # [S40] = Parliamentary Papers. United Kingdom: H.M. Stationery Office, 1858.
 # https://www.google.co.uk/books/edition/Parliamentary_Papers/a7QSAAAAYAAJ
+# [S41] = Dwarris, Fortunatus., Amyot, William Henry. A General Treatise on Statutes: Their Rules of Construction, and
+# the Proper Boundaries of Legislation and Judicial Interpretation.  W. Benning, 1848.
+# https://www.google.co.uk/books/edition/A_General_Treatise_on_Statutes/iPVBAAAAYAAJ
