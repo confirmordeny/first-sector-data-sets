@@ -21,6 +21,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Anne" # [S31]
 - "W. & M." # [S29]
 - "Will. & Mar" # [S6]
+- "W. 3" # [S32]
 - "Will. 3" # [S12]
 - "Jac. 2" # [S5]
 - "Ja. 2" # [S13]
@@ -95,5 +96,6 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S30] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/IX/enacted
 # [S31] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XI/enacted
 # [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XIV/enacted
+# [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XXVIII/enacted
 
 
