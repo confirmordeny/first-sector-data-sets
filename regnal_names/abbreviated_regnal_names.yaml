@@ -54,6 +54,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Hen. 4" # [S25]
 - "Ric. 2" # [S25]
 - "Rich. 2"
+- "E. 3" # [S35]
 - "Edw. 3" # [S25]
 - "Edw. 2" # [S4]
 - "Ed. 1" # [S27]
@@ -102,5 +103,8 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XXVIII/enacted
 # [S33] = https://www.legislation.gov.uk/ukpga/Vict/28-29/94/section/1
 # [S34] = https://www.legislation.gov.uk/ukpga/Will4/5-6/50/paragraph/1/enacted
+# [S35] = Coke, Edward. The Third Part of the Institutes of the Laws of England: Concerning High Treason, 
+# and Other Pleas of the Crown, and Criminal Causes. United Kingdom: W. Rawlins, 1680.
+# https://www.google.co.uk/books/edition/The_Third_Part_of_the_Institutes_of_the/7SBRAQAAMAAJ
 
 
