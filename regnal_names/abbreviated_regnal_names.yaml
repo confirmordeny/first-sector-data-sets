@@ -11,6 +11,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Edw. 7" # [S2]
 - "Vict." # [S3]
 - "Will. 4" # [S3]
+- "G. 4" # [S32]
 - "Geo. 4" # [S6]
 - "G. 3" # [S29]
 - "Geo. 3" # [S8]
@@ -93,5 +94,6 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S29] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/VII/enacted
 # [S30] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/IX/enacted
 # [S31] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XI/enacted
+# [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XIV/enacted
 
 
