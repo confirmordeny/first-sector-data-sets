@@ -44,6 +44,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Rich. 2"
 - "Edw. 3" # [S25]
 - "Edw. 2" # [S4]
+- "Ed. 1" # [S27]
 - "Edw. 1" # [S25]
 - "Hen. 3" # [S23]
 - "Joh."
@@ -80,4 +81,5 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S25] = https://www.legislation.gov.uk/ukpga/1967/58
 # [S26] = https://www.legislation.gov.uk/ukpga/1969/52/schedules/enacted
 # [S26] = https://www.irishstatutebook.ie/eli/2007/act/28/schedule/2/enacted/en/html (Ireland: Statute Law Revision Act 2007)
+# [S27] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/paragraph/1/enacted
 
