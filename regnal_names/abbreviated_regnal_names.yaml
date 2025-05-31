@@ -24,10 +24,12 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Anne" # [S31]
 - "W. & M." # [S29]
 - "Will. & Mar." # [S6]
+- "Will. & Mary" # [S37]
 - "W. 3" # [S32]
 - "Will. 3" # [S12]
 - "Ja. 2" # [S13]
 - "Jac. 2" # [S5]
+- "Jas. 2" # [S37]
 - "Car. 2" # [S14]
 - "Chas. 2" # [S4]
 - "Car." # [S35]
@@ -36,6 +38,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Ja." # [S35]
 - "Ja. 1" # [S17]
 - "Jac. 1" # [S16]
+- "Jas. 1" # [S37]
 - "Eliz." # [S18] 
 - "Eliz. 1" # [S25]
 - "P. & M." # [S28]
@@ -117,5 +120,6 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # and Other Pleas of the Crown, and Criminal Causes. United Kingdom: W. Rawlins, 1680.
 # https://www.google.co.uk/books/edition/The_Third_Part_of_the_Institutes_of_the/7SBRAQAAMAAJ
 # [S36] = https://www.legislation.gov.uk/ukpga/Vict/53-54/21/schedules/enacted
+# [S37] = https://www.legislation.gov.uk/ukpga/1965/2/schedule/2/enacted
 
 
