@@ -1,0 +1,37 @@
+# Mappings of Secretaries of State to Government Departments
+# Source: https://www.gov.uk/government/ministers
+# May 2025
+Secretary of State for Business and Trade:
+  Department: Department for Business and Trade
+Secretary of State for Culture, Media and Sport:
+  Department: Department for Culture, Media and Sport
+Secretary of State for Defence:
+  Department: Ministry of Defence
+Secretary of State for Education:
+  Department: Department for Education
+Secretary of State for Energy Security and Net Zero:
+  Department: Department for Energy Security and Net Zero
+Secretary of State for Environment, Food and Rural Affairs:
+  Department: Department for the Environment, Food and Rural Affairs
+Secretary of State for Foreign, Commonwealth and Development Affairs:
+  Department: Foreign, Commonwealth & Development Office
+Secretary of State for Health and Social Care:
+  Department: Department of Health and Social Care
+Secretary of State for the Home Department:
+  Department: Home Office
+Secretary of State for Housing, Communities and Local Government:
+  Department: Ministry of Housing, Communities and Local Government
+Secretary of State for Justice:
+  Department: Ministry of Justice
+Secretary of State for Northern Ireland:
+  Department: Northern Ireland Office
+Secretary of State for Science, Innovation and Technology:
+  Department: Department for Science, Innovation and Technology
+Secretary of State for Scotland:
+  Department: Scotland Office
+Secretary of State for Transport:
+  Department: Department for Transport
+Secretary of State for Wales:
+  Department: Wales Office
+Secretary of State for Work and Pensions:
+  Department: Department for Work and Pensions
