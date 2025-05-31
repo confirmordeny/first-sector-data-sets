@@ -81,8 +81,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   - "Ric. 3" # [S23]
   - "Rich. 3" # [S22]
   Edward V:
-  # Edward V never summoned Parliament however "Edw. 5" is used to reference law reports.
-  - "Edw. 5"
+  - "Edw. 5" [N6] [S40]
   Edward IV:
   - "E. 4" # [S35]
   - "Edw. 4" # [S24]
@@ -109,7 +108,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   Henry III:
   - "Hen. 3" # [S23]
   John:
-  - "John" # [S26] [N3][N5]
+  - "John" # [S26] [N3] [N5]
   Richard I: [N4]
   - "Ric. 1" # [S26]
   Henry II:
@@ -127,6 +126,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [N4] = https://www.legalbluebook.com/bluebook/v21/tables/t2-foreign-jurisdictions/t2-43-united-kingdom refers to "Rich." but there is limited evidence
 # of this being used in practice
 # [N5] = There has only been one King John so no number is used.
+# [N6] = Edward V never summoned Parliament however "Edw. 5" is used to reference law reports.
 #
 # Sources: 
 # [S1] = https://www.legislation.gov.uk/ukpga/Geo6/14-15/39/schedules/enacted
@@ -174,3 +174,5 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # https://www.google.co.uk/books/edition/Chronological_Table_of_the_Statutes/bQ8mAQAAMAAJ
 # [S39] = Coke, Edward., Littleton, Thomas., and others The First Part of the Institutes of the Laws of England, United States: R.H. Small, 1853.
 # https://www.google.co.uk/books/edition/The_First_Part_of_the_Institutes_of_the/GOgKAAAAYAAJ
+# [S40] = Parliamentary Papers. United Kingdom: H.M. Stationery Office, 1858.
+# https://www.google.co.uk/books/edition/Parliamentary_Papers/a7QSAAAAYAAJ
