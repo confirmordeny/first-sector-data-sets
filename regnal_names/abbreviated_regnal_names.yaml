@@ -18,6 +18,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Geo. 3" # [S8]
 - "G. 2" # [S32]
 - "Geo. 2" # [S9]
+- "G. 1" # [S34]
 - "Geo. 1" # [S10]
 - "Ann." # [S11]
 - "Anne" # [S31]
@@ -100,5 +101,6 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XIV/enacted
 # [S32] = https://www.legislation.gov.uk/ukpga/Geo4/7/64/section/XXVIII/enacted
 # [S33] = https://www.legislation.gov.uk/ukpga/Vict/28-29/94/section/1
+# [S34] = https://www.legislation.gov.uk/ukpga/Will4/5-6/50/paragraph/1/enacted
 
 
