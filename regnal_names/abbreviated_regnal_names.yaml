@@ -58,6 +58,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   - "Ja." # [S35]
   - "Ja. 1" # [S17]
   - "Jac. 1" # [S16]
+  - "Jam. 1" # [S39]
   - "Jas. 1" # [S37]
   Elizabeth I:
   - "Eliz." # [S18] 
@@ -113,7 +114,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   John:
   - "Joh."
   - "John" # [S26]
-  Richard:
+  Richard I:
   - "Ric. 1" # [S26]
   - "Rich."
   Henry II:
@@ -166,3 +167,5 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S37] = https://www.legislation.gov.uk/ukpga/1965/2/schedule/2/enacted
 # [S38] = Chronological Table of the Statutes: Covering the Legislation to December 31, 1950. United Kingdom: H.M. Stationery Office, 1951.
 # https://www.google.co.uk/books/edition/Chronological_Table_of_the_Statutes/bQ8mAQAAMAAJ
+# [S39] = Coke, Edward., Littleton, Thomas., and others The First Part of the Institutes of the Laws of England, United States: R.H. Small, 1853.
+# https://www.google.co.uk/books/edition/The_First_Part_of_the_Institutes_of_the/GOgKAAAAYAAJ
