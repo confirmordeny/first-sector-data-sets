@@ -43,7 +43,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 - "Ric. 2" # [S25]
 - "Rich. 2"
 - "Edw. 3" # [S25]
-- "Edw. 2"
+- "Edw. 2" # [S4]
 - "Edw. 1" # [S25]
 - "Hen. 3"
 - "Joh."
@@ -55,7 +55,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S1] = https://www.legislation.gov.uk/ukpga/Geo6/14-15/39/schedules/enacted
 # [S2] = https://www.legislation.gov.uk/changes/chron-tables/private/33
 # [S3] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/I
-# [S4] = https://www.legislation.gov.uk/ukpga/1969/52/schedule/part/IV/crossheading/enactments-relating-to-sunday-observance/enacted
+# [S4] = https://www.legislation.gov.uk/ukpga/1969/52/schedules/enacted
 # [S5] = https://www.legislation.gov.uk/ukpga/Geo5/15-16/5/schedule/FIRST/enacted
 # [S6] = https://www.legislation.gov.uk/ukpga/1976/16/schedule/1/part/XI
 # [S7] = https://www.legislation.gov.uk/changes/chron-tables/private/1
@@ -77,3 +77,4 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S23] = https://www.legislation.gov.uk/ukpga/Geo6/11-12/62/pdfs/ukpga_19480062_en.pdf
 # [S24] = https://www.legislation.gov.uk/ukpga/Will4/1-2/32/enacted
 # [S25] = https://www.legislation.gov.uk/ukpga/1967/58
+# [S26] = https://www.legislation.gov.uk/ukpga/1969/52/schedules/enacted
