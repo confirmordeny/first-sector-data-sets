@@ -1,6 +1,6 @@
 # First-sector
 Data sets relating to the public sector.
-Brand new project, not started yet
+Started in late May 2025.
 
 ## Code of conduct
 See [Code of conduct](CODE_OF_CONDUCT.md)
