@@ -113,7 +113,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   - "Hen. 3" # [S23]
   John:
   - "Joh."
-  - "John" # [S26]
+  - "John" # [S26] (there has only been one King John so no number is used)
   Richard I:
   - "Ric. 1" # [S26]
   - "Rich."
