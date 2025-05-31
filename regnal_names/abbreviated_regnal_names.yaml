@@ -1,10 +1,8 @@
-# This may not be a complete list.
-# Queen Elizabeth II was the last monarch for which regnal years were used for Acts of Parliament
-# See also: Acts of Parliament Numbering and Citation Act 1962
-# Shorter names e.g. Anne and John sometimes appear in full in citations and these are included here for completeness.
-# Sources appear at the end.
+# This list contains the abbreviations for regnal names of British and English monarchs.
+# Notes [N] and sources [S] appear at the end.
+# Please let me know if you know of any that I am missing (e.g. by raising an issue).
 REGNAL_NAMES_ABBREVIATION_LIST:
-  Elizabeth II:
+  Elizabeth II: # [N1]
   - "Eliz. 2" # [S2]
   George VI:
   - "G. 6" # [S38]
@@ -35,7 +33,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   - "Geo. 1" # [S10]
   Anne:
   - "Ann." # [S11]
-  - "Anne" # [S31]
+  - "Anne" # [N3] [S31]
   William and Mary:
   - "W. & M." # [S29]
   - "Will. & Mar." # [S6]
@@ -97,10 +95,9 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   Henry IV:
   - "H. 4" # [S35]
   - "Hen. 4" # [S25]
-  Richard II:
+  Richard II: [N4]
   - "R. 2" # [S35]
   - "Ric. 2" # [S25]
-  - "Rich. 2"
   Edward III:
   - "E. 3" # [S35]
   - "Edw. 3" # [S25]
@@ -112,17 +109,25 @@ REGNAL_NAMES_ABBREVIATION_LIST:
   Henry III:
   - "Hen. 3" # [S23]
   John:
-  - "Joh."
-  - "John" # [S26] (there has only been one King John so no number is used)
-  Richard I:
+  - "John" # [S26] [N3][N5]
+  Richard I: [N4]
   - "Ric. 1" # [S26]
-  - "Rich."
   Henry II:
   - "H. 2" # [S32]
   - "Hen. 2" # [S26]
-  Henry I:
+  Henry I: [N2]
   - "H. 1" # [S35]
   - "Hen. 1" # [S26]
+#
+# Notes:
+# [N1] = Queen Elizabeth II was the last monarch for which regnal years were used for Acts of Parliament
+# See also: Acts of Parliament Numbering and Citation Act 1962
+# [N2] = I did not find any instances of regnal name abbreviations being used for earlier monarchs.
+# [N3] = Shorter names e.g. Anne and John sometimes appear in full in citations and these are included here for completeness.
+# [N4] = https://www.legalbluebook.com/bluebook/v21/tables/t2-foreign-jurisdictions/t2-43-united-kingdom refers to "Rich." but there is limited evidence
+# of this being used in practice
+# [N5] = There has only been one King John so no number is used.
+#
 # Sources: 
 # [S1] = https://www.legislation.gov.uk/ukpga/Geo6/14-15/39/schedules/enacted
 # [S2] = https://www.legislation.gov.uk/changes/chron-tables/private/33
