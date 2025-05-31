@@ -4,85 +4,124 @@
 # Shorter names e.g. Anne and John sometimes appear in full in citations and these are included here for completeness.
 # Sources appear at the end.
 REGNAL_NAMES_ABBREVIATION_LIST:
-- "Eliz. 2" # [S2]
-- "G. 6" # [S38]
-- "Geo. 6" # [S3]
-- "Edw. 8" # [S2]
-- "G. 5" # [S38]
-- "Geo. 5" # [S2]
-- "Edw. 7" # [S2]
-- "Vict." # [S3]
-- "W. 4" # [S36]
-- "Will. 4" # [S3]
-- "G. 4" # [S32]
-- "Geo. 4" # [S6]
-- "G. 3" # [S29]
-- "Geo. 3" # [S8]
-- "G. 2" # [S32]
-- "Geo. 2" # [S9]
-- "G. 1" # [S34]
-- "Geo. 1" # [S10]
-- "Ann." # [S11]
-- "Anne" # [S31]
-- "W. & M." # [S29]
-- "Will. & Mar." # [S6]
-- "Will. & Mary" # [S37]
-- "W. 3" # [S32]
-- "Will. 3" # [S12]
-- "Ja. 2" # [S13]
-- "Jac. 2" # [S5]
-- "Jas. 2" # [S37]
-- "Car. 2" # [S14]
-- "Chas. 2" # [S4]
-- "Car." # [S35]
-- "Car. 1" # [S15]
-- "Chas. 1" # [S4]
-- "Ja." # [S35]
-- "Ja. 1" # [S17]
-- "Jac. 1" # [S16]
-- "Jas. 1" # [S37]
-- "Eliz." # [S18] 
-- "Eliz. 1" # [S25]
-- "P. & M." # [S28]
-- "Ph. & M." # [S7]
-- "Mar." # [S19]
-- "E. 6" # [S35]
-- "Ed. 6" # [S30]
-- "Edw. 6" # [S20]
-- "H. 8" # [S35]
-- "Hen. 8" # [S5]
-- "H. 7" # [S35]
-- "Hen. 7" # [S21]
-- "R. 3" # [S35]
-- "Ric. 3" # [S23]
-- "Rich. 3" # [S22]
-# Edward V never summoned Parliament however "Edw. 5" is used to reference law reports.
-- "Edw. 5"
-- "E. 4" # [S35]
-- "Edw. 4" # [S24]
-- "H. 6" # [S27]
-- "Hen. 6" # [S4]
-- "H. 5" # [S35]
-- "Hen. 5" # [S25]
-- "H. 4" # [S35]
-- "Hen. 4" # [S25]
-- "R. 2" # [S35]
-- "Ric. 2" # [S25]
-- "Rich. 2"
-- "E. 3" # [S35]
-- "Edw. 3" # [S25]
-- "Edw. 2" # [S4]
-- "Ed. 1" # [S27]
-- "Edw. 1" # [S25]
-- "Hen. 3" # [S23]
-- "Joh."
-- "John" # [S26]
-- "Ric. 1" # [S26]
-- "Rich."
-- "H. 1" # [S32]
-- "Hen. 2" # [S26]
-- "H. 1" # [S35]
-- "Hen. 1" # [S26]
+  Elizabeth II:
+  - "Eliz. 2" # [S2]
+  George VI:
+  - "G. 6" # [S38]
+  - "Geo. 6" # [S3]
+  Edward VIII:
+  - "Edw. 8" # [S2]
+  George V:
+  - "G. 5" # [S38]
+  - "Geo. 5" # [S2]
+  Edward VII:
+  - "Edw. 7" # [S2]
+  Victoria:
+  - "Vict." # [S3]
+  William IV:
+  - "W. 4" # [S36]
+  - "Will. 4" # [S3]
+  George IV:
+  - "G. 4" # [S32]
+  - "Geo. 4" # [S6]
+  George III:
+  - "G. 3" # [S29]
+  - "Geo. 3" # [S8]
+  George II:
+  - "G. 2" # [S32]
+  - "Geo. 2" # [S9]
+  George I:
+  - "G. 1" # [S34]
+  - "Geo. 1" # [S10]
+  Anne:
+  - "Ann." # [S11]
+  - "Anne" # [S31]
+  William and Mary:
+  - "W. & M." # [S29]
+  - "Will. & Mar." # [S6]
+  - "Will. & Mary" # [S37]
+  William III:
+  - "W. 3" # [S32]
+  - "Will. 3" # [S12]
+  James II:
+  - "Ja. 2" # [S13]
+  - "Jac. 2" # [S5]
+  - "Jas. 2" # [S37]
+  Charles II:
+  - "Car. 2" # [S14]
+  - "Chas. 2" # [S4]
+  Charles I:
+  - "Car." # [S35]
+  - "Car. 1" # [S15]
+  - "Chas. 1" # [S4]
+  James I:
+  - "Ja." # [S35]
+  - "Ja. 1" # [S17]
+  - "Jac. 1" # [S16]
+  - "Jas. 1" # [S37]
+  Elizabeth I:
+  - "Eliz." # [S18] 
+  - "Eliz. 1" # [S25]
+  Philip and Mary:
+  - "P. & M." # [S28]
+  - "Ph. & M." # [S7]
+  Mary:
+  - "Mar." # [S19]
+  Edward VI:
+  - "E. 6" # [S35]
+  - "Ed. 6" # [S30]
+  - "Edw. 6" # [S20]
+  Henry VIII:
+  - "H. 8" # [S35]
+  - "Hen. 8" # [S5]
+  Henry VII:
+  - "H. 7" # [S35]
+  - "Hen. 7" # [S21]
+  Richard III:
+  - "R. 3" # [S35]
+  - "Ric. 3" # [S23]
+  - "Rich. 3" # [S22]
+  Edward V:
+  # Edward V never summoned Parliament however "Edw. 5" is used to reference law reports.
+  - "Edw. 5"
+  Edward IV:
+  - "E. 4" # [S35]
+  - "Edw. 4" # [S24]
+  Henry VI:
+  - "H. 6" # [S27]
+  - "Hen. 6" # [S4]
+  Henry V:
+  - "H. 5" # [S35]
+  - "Hen. 5" # [S25]
+  Henry IV:
+  - "H. 4" # [S35]
+  - "Hen. 4" # [S25]
+  Richard II:
+  - "R. 2" # [S35]
+  - "Ric. 2" # [S25]
+  - "Rich. 2"
+  Edward III:
+  - "E. 3" # [S35]
+  - "Edw. 3" # [S25]
+  Edward II:
+  - "Edw. 2" # [S4]
+  Edward I:
+  - "Ed. 1" # [S27]
+  - "Edw. 1" # [S25]
+  Henry III:
+  - "Hen. 3" # [S23]
+  John:
+  - "Joh."
+  - "John" # [S26]
+  Richard:
+  - "Ric. 1" # [S26]
+  - "Rich."
+  Henry II:
+  - "H. 2" # [S32]
+  - "Hen. 2" # [S26]
+  Henry I:
+  - "H. 1" # [S35]
+  - "Hen. 1" # [S26]
 # Sources: 
 # [S1] = https://www.legislation.gov.uk/ukpga/Geo6/14-15/39/schedules/enacted
 # [S2] = https://www.legislation.gov.uk/changes/chron-tables/private/33
@@ -127,5 +166,3 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # [S37] = https://www.legislation.gov.uk/ukpga/1965/2/schedule/2/enacted
 # [S38] = Chronological Table of the Statutes: Covering the Legislation to December 31, 1950. United Kingdom: H.M. Stationery Office, 1951.
 # https://www.google.co.uk/books/edition/Chronological_Table_of_the_Statutes/bQ8mAQAAMAAJ
-
-
