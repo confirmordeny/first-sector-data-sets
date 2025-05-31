@@ -5,6 +5,7 @@
 # Sources appear at the end.
 REGNAL_NAMES_ABBREVIATION_LIST:
 - "Eliz. 2" # [S2]
+- "G. 6" # [S38]
 - "Geo. 6" # [S3]
 - "Edw. 8" # [S2]
 - "Geo. 5" # [S2]
@@ -121,5 +122,7 @@ REGNAL_NAMES_ABBREVIATION_LIST:
 # https://www.google.co.uk/books/edition/The_Third_Part_of_the_Institutes_of_the/7SBRAQAAMAAJ
 # [S36] = https://www.legislation.gov.uk/ukpga/Vict/53-54/21/schedules/enacted
 # [S37] = https://www.legislation.gov.uk/ukpga/1965/2/schedule/2/enacted
+# [S38] = Chronological Table of the Statutes: Covering the Legislation to December 31, 1950. United Kingdom: H.M. Stationery Office, 1951.
+# https://www.google.co.uk/books/edition/Chronological_Table_of_the_Statutes/bQ8mAQAAMAAJ
 
 
