@@ -6,4 +6,4 @@ Brand new project, not started yet
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
-See [License](https://github.com/confirmordeny/first-sector-data-sets/blob/main/LICENSE.md)
+See [License](LICENSE.md)
