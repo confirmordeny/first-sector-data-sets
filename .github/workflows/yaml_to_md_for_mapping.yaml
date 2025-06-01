@@ -12,36 +12,52 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Install PyYAML
-      run: pip install pyyaml
+      - name: Install PyYAML
+        run: pip install pyyaml
 
-    - name: Convert YAML to Markdown
-      run: |
-        python3 <<EOF
-        import yaml
+      - name: Convert YAML to Markdown
+        run: |
+          python3 <<EOF
+          import yaml
 
-        with open('secretaries_of_state/mapping.yaml', 'r') as f:
-            data = yaml.safe_load(f)
+          with open('secretaries_of_state/mapping.yaml', 'r') as f:
+              data = yaml.safe_load(f)
 
-        def to_markdown(data, level=1):
-            md = ''
-            if isinstance(data, dict):
-                for key, value in data.items():
-                    md += '#' * level + f' {key}\\n\\n'
-\
-'
-                    md += to_markdown(value, level + 1)
-            elif isinstance(data, list):
-                for item in data:
-                    md += '- ' + str(item) + '\
-'
-            else:
-                md += str(
+          def to_markdown(data, level=1):
+              md = ''
+              if isinstance(data, dict):
+                  for key, value in data.items():
+                      md += '#' * level + ' ' + str(key) + '\\n\\n'
+                      md += to_markdown(value, level + 1)
+              elif isinstance(data, list):
+                  for item in data:
+                      md += '- ' + str(item) + '\\n'
+              else:
+                  md += str(data) + '\\n'
+              return md
+
+          markdown = to_markdown(data)
+          with open('secretaries_of_state/mapping.md', 'w') as f:
+              f.write(markdown)
+          EOF
+
+      - name: Commit Markdown file
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+          git add secretaries_of_state/mapping.md
+          git status
+          git diff
+          git commit -m "Update Markdown from YAML" || echo "No changes to commit"
+          git push origin HEAD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
