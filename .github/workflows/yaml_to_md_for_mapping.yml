@@ -4,7 +4,10 @@ on:
   push:
     paths:
       - 'secretaries_of_state/mapping.yaml' 
-
+      
+permissions:
+  contents: write
+  
 jobs:
   convert:
     runs-on: ubuntu-latest
