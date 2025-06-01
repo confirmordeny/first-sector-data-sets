@@ -32,7 +32,7 @@ jobs:
           with open('secretaries_of_state/mapping.yaml', 'r') as f:
               data = yaml.safe_load(f)
 
-          # Handle nested "Secretaries of state" key
+          # Support nested top-level structure
           if "Secretaries of state" in data:
               data = data["Secretaries of state"]
 
@@ -40,10 +40,21 @@ jobs:
           rows = []
 
           for secretary, details in data.items():
-              wikidata = details.get("Wikidata identifier", "").strip()
-              department = details.get("Department", "").strip()
+              wikidata_raw = details.get("Wikidata identifier", "")
+              if isinstance(wikidata_raw, list):
+                  wikidata = ", ".join(str(w) for w in wikidata_raw)
+              else:
+                  wikidata = str(wikidata_raw).strip()
+
+              department_raw = details.get("Department", "")
+              if isinstance(department_raw, list):
+                  department = ", ".join(str(d) for d in department_raw)
+              else:
+                  department = str(department_raw).strip()
+
               rows.append([secretary.strip(), wikidata, department])
 
+          # Add invisible edit warning
           md = "<!-- ⚠️ This file is auto-generated from mapping.yaml. Do not edit it manually. -->\\n\\n"
           md += f"| {' | '.join(headers)} |\\n"
           md += f"| {' | '.join(['-' * len(h) for h in headers])} |\\n"
