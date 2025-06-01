@@ -2,6 +2,7 @@
 
 | Secretary of state | Wikidata ID (Q code) | Government Department |
 | ------------------ | -------------------- | --------------------- |
+| Secretary of State for Air | Q3477296 | Ministry of Defence |
 | Secretary of State for Business and Trade | Q3858507 | Department for Business and Trade |
 | Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office |
 | Secretary of State for Culture, Media and Sport | Q3297079 | Department for Culture, Media and Sport |
