@@ -41,7 +41,7 @@ jobs:
                 md += str(data) + '\n'
             return md
 
-        with open('secretaries_of_state/output.md', 'w') as f:
+        with open('secretaries_of_state/mapping.md', 'w') as f:
             f.write(to_markdown(data))
         EOF
 
