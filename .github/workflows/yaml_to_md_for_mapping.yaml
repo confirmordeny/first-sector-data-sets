@@ -35,29 +35,13 @@ jobs:
             md = ''
             if isinstance(data, dict):
                 for key, value in data.items():
-                    md += '#' * level + f' {key}\n\n'
+                    md += '#' * level + f' {key}\
+\
+'
                     md += to_markdown(value, level + 1)
             elif isinstance(data, list):
                 for item in data:
-                    md += '- ' + str(item) + '\n'
+                    md += '- ' + str(item) + '\
+'
             else:
-                md += str(data) + '\n'
-            return md
-
-        with open('secretaries_of_state/mapping.md', 'w') as f:
-            f.write(to_markdown(data))
-        EOF
-
-    - name: Show generated Markdown (for debugging)
-      run: cat secretaries_of_state/mapping.md
-
-    - name: Commit Markdown file
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
-        git add secretaries_of_state/mapping.md
-        git diff --quiet || git commit -m "Update Markdown from YAML"
-        git push origin HEAD
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                md += str(
