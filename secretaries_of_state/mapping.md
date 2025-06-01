@@ -24,3 +24,4 @@
 | Secretary of State for International Trade | Q25863345 | Department for International Trade |
 | Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office |
 | Secretary of State for Levelling Up, Housing and Communities | No code found. | Department for Levelling Up, Housing and Communities |
+| Secretary of State for Prices and Consumer Protection | Q19968185 | Department of Prices and Consumer Protection |
