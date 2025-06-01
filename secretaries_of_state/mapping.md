@@ -1,7 +1,7 @@
 <!-- ⚠️ This file is auto-generated from mapping.yaml. Do not edit it manually. -->
 
-| Secretary | Wikidata ID | Department |
-| --------- | ----------- | ---------- |
+| Secretary of state | Wikidata ID (Q code) | Government Department |
+| ------------------ | -------------------- | --------------------- |
 | Secretary of State for Business and Trade | Q3858507 | Department for Business and Trade |
 | Secretary of State for Culture, Media and Sport | Q3297079 | Department for Culture, Media and Sport |
 | Secretary of State for Defence | Q2747647 | Ministry of Defence |
