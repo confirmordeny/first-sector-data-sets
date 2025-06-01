@@ -16,6 +16,7 @@
 | Secretary of State for the Home Department | Q2484309 | Home Office |
 | Secretary of State for Housing, Communities and Local Government | Q11781526 | Ministry of Housing, Communities and Local Government |
 | Secretary of State for India | Q639769 | India Office |
+| Secretary of State for India and Burma | No code found. | India and Burma Office |
 | Secretary of State for International Trade | Q25863345 | Department for International Trade |
 | Secretary of State for Justice | Q3477307 | Ministry of Justice |
 | Secretary of State for Levelling Up, Housing and Communities | No code found. | Department for Levelling Up, Housing and Communities |
