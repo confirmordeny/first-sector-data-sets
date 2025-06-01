@@ -1,0 +1,54 @@
+name: Convert YAML to Markdown
+
+on:
+  push:
+    paths:
+      - 'mapping.yml' 
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install PyYAML
+      run: pip install pyyaml
+
+    - name: Convert YAML to Markdown
+      run: |
+        python3 <<EOF
+        import yaml
+
+        with open('mapping.yml', 'r') as f:
+            data = yaml.safe_load(f)
+
+        def to_markdown(data, level=1):
+            md = ''
+            if isinstance(data, dict):
+                for key, value in data.items():
+                    md += '#' * level + f' {key}\n\n'
+                    md += to_markdown(value, level + 1)
+            elif isinstance(data, list):
+                for item in data:
+                    md += '- ' + str(item) + '\n'
+            else:
+                md += str(data) + '\n'
+            return md
+
+        with open('output.md', 'w') as f:
+            f.write(to_markdown(data))
+        EOF
+
+    - name: Commit Markdown file
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add output.md
+        git commit -m "Update Markdown from YAML"
+        git push
