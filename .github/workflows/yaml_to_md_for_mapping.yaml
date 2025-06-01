@@ -1,4 +1,4 @@
-      - name: Convert YAML to Markdown Table
+- name: Convert YAML to Markdown Table
         run: |
           python3 <<EOF
           import yaml
