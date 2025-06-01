@@ -13,6 +13,7 @@
 | Secretary of State for Environment, Food and Rural Affairs | Q14984399 | Department for the Environment, Food and Rural Affairs |
 | Secretary of State for Exiting the European Union | Q25860233 | Department for Exiting the European Union |
 | Secretary of State for Foreign, Commonwealth and Development Affairs | No code found. | Foreign, Commonwealth & Development Office |
+| Secretary of State for Health | No code found. | Department of Health |
 | Secretary of State for Health and Social Care | Q3397406 | Department of Health and Social Care |
 | Secretary of State for the Home Department | Q2484309 | Home Office |
 | Secretary of State for Housing, Communities and Local Government | Q11781526 | Ministry of Housing, Communities and Local Government |
