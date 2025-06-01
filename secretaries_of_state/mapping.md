@@ -143,7 +143,7 @@ Department for Work and Pensions
 Q7444345
 ### Department
 
-Department of Energy & Climate Change"
+Department of Energy & Climate Change
 ## Secretary of State for Exiting the European Union
 
 ### Wikidata identifier
@@ -151,7 +151,7 @@ Department of Energy & Climate Change"
 Q25860233
 ### Department
 
-Department for Exiting the European Union"
+Department for Exiting the European Union
 ## Secretary of State for International Trade
 
 ### Wikidata identifier
@@ -159,7 +159,7 @@ Department for Exiting the European Union"
 Q25863345
 ### Department
 
-Department for International Trade "
+Department for International Trade
 ## Secretary of State in the Cabinet Office
 
 ### Wikidata identifier
@@ -175,4 +175,4 @@ Cabinet Office"
 - No code found.
 ### Department
 
-Department for Levelling Up, Housing and Communities"
+Department for Levelling Up, Housing and Communities
