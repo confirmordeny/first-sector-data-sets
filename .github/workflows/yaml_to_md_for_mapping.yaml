@@ -35,7 +35,7 @@ jobs:
             md = ''
             if isinstance(data, dict):
                 for key, value in data.items():
-                    md += '#' * level + f' {key}\
+                    md += '#' * level + f' {key}\\n\\n'
 \
 '
                     md += to_markdown(value, level + 1)
