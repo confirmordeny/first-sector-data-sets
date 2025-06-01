@@ -7,6 +7,7 @@
 | Secretary of State for Business, Energy and Industrial Strategy | None | No code found. |
 | Secretary of State for Business, Innovation and Skills | No code found. | Department for Business, Innovation & Skills |
 | Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office |
+| Secretary of State for Commonwealth Affairs | Q7444336 | Commonwealth Office" |
 | Secretary of State for Culture, Media and Sport | Q3297079 | Department for Culture, Media and Sport |
 | Secretary of State for Defence | Q2747647 | Ministry of Defence |
 | Secretary of State for Education | Q3477306 | Department for Education |
