@@ -3,7 +3,7 @@ name: Convert YAML to Markdown
 on:
   push:
     paths:
-      - 'secretaries_of_state/mapping.yml' 
+      - 'secretaries_of_state/mapping.yaml' 
 
 jobs:
   convert:
@@ -25,7 +25,7 @@ jobs:
         python3 <<EOF
         import yaml
 
-        with open('secretaries_of_state/mapping.yml', 'r') as f:
+        with open('secretaries_of_state/mapping.yaml', 'r') as f:
             data = yaml.safe_load(f)
 
         def to_markdown(data, level=1):
