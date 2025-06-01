@@ -22,5 +22,5 @@
 | Secretary of State for Energy and Climate Change | Q7444345 | Department of Energy & Climate Change |
 | Secretary of State for Exiting the European Union | Q25860233 | Department for Exiting the European Union |
 | Secretary of State for International Trade | Q25863345 | Department for International Trade |
-| Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office" |
+| Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office |
 | Secretary of State for Levelling Up, Housing and Communities | No code found. | Department for Levelling Up, Housing and Communities |
