@@ -3,7 +3,7 @@ name: Convert YAML to Markdown
 on:
   push:
     paths:
-      - 'mapping.yml' 
+      - 'secretaries_of_state/mapping.yml' 
 
 jobs:
   convert:
