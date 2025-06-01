@@ -33,8 +33,8 @@ jobs:
               data = yaml.safe_load(f)
 
           # Support nested top-level structure
-          if "Secretaries of state" in data:
-              data = data["Secretaries of state"]
+          if "Secretaries of state — current and historical" in data:
+              data = data["Secretaries of state — current and historical"]
 
           headers = ["Secretary of state", "Wikidata ID (Q code)", "Government Department"]
           rows = []
