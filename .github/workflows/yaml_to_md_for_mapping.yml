@@ -3,11 +3,11 @@ name: Convert YAML to Markdown
 on:
   push:
     paths:
-      - 'secretaries_of_state/mapping.yaml' 
-      
+      - 'secretaries_of_state/mapping.yaml'
+
 permissions:
   contents: write
-  
+
 jobs:
   convert:
     runs-on: ubuntu-latest
@@ -47,6 +47,9 @@ jobs:
         with open('secretaries_of_state/mapping.md', 'w') as f:
             f.write(to_markdown(data))
         EOF
+
+    - name: Show generated Markdown (for debugging)
+      run: cat secretaries_of_state/mapping.md
 
     - name: Commit Markdown file
       run: |
