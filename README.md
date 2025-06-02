@@ -2,6 +2,9 @@
 Data sets relating to the public sector.
 Started in late May 2025.
 
+## List of data sets
+1. [Regnal names](/main/regnal_names)
+
 ## Contributing
 
 We welcome contributions.
