@@ -25,6 +25,7 @@
 | Secretary of State for International Trade | Q25863345 | Department for International Trade |
 | Secretary of State for Justice | Q3477307 | Ministry of Justice |
 | Secretary of State for Levelling Up, Housing and Communities | No code found. | Department for Levelling Up, Housing and Communities |
+| Secretary of State for National Heritage | No code found. | Department for National Heritage |
 | Secretary of State for the Northern Department | Q3954358 | Northern Department |
 | Secretary of State for Northern Ireland | Q1369302 | Northern Ireland Office |
 | Secretary of State for Prices and Consumer Protection | Q19968185 | Department of Prices and Consumer Protection |
