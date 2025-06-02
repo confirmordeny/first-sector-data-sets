@@ -4,6 +4,7 @@ Started in late May 2025.
 
 ## List of data sets
 1. [Regnal names](/regnal_names)
+2. [Secretaries_of_state](/secretaries_of_state)
 
 ## Contributing
 
