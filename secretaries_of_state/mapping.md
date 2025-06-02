@@ -15,6 +15,7 @@
 | Secretary of State for Energy Security and Net Zero | Q116728869 | Department for Energy Security and Net Zero |
 | Secretary of State for Environment, Food and Rural Affairs | Q14984399 | Department for the Environment, Food and Rural Affairs |
 | Secretary of State for Exiting the European Union | Q25860233 | Department for Exiting the European Union |
+| First Secretary of State | Q3068024 | N/A |
 | Secretary of State for Foreign, Commonwealth and Development Affairs | No code found. | Foreign, Commonwealth & Development Office |
 | Secretary of State for Health | No code found. | Department of Health |
 | Secretary of State for Health and Social Care | Q3397406 | Department of Health and Social Care |
