@@ -4,6 +4,12 @@
 # https://en.wikipedia.org/wiki/Category:Ministerial_offices_in_the_United_Kingdom
 # There is also markdown version of this file (mapping.md) that updates from this yaml file.
 Secretaries of state — current and historical:
+  First Secretary of State: # https://www.legislation.gov.uk/uksi/2002/2626/article/3/made
+    Wikidata identifier: Q3068024
+    Department: [Not applicable.]
+  Secretary of State: # prior to the split between Northern and Southern Departments in the 1600s.
+    Wikidata identifier: Q591522
+    Department: [Not applicable.]
   Secretary of State for Air:
     Wikidata identifier: Q3477296
     Department: Ministry of Defence
@@ -55,9 +61,9 @@ Secretaries of state — current and historical:
   Secretary of State for Exiting the European Union:
     Wikidata identifier: Q25860233
     Department: Department for Exiting the European Union
-  First Secretary of State: # https://www.legislation.gov.uk/uksi/2002/2626/article/3/made
-    Wikidata identifier: Q3068024
-    Department: N/A
+  Secretary of State for Foreign and Commonwealth Affairs:
+    Wikidata identifier: Q1371091
+    Department: Foreign and Commonwealth Office
   Secretary of State for Foreign, Commonwealth and Development Affairs:
     Wikidata identifier: [No code found.]
     Department: Foreign, Commonwealth & Development Office
@@ -79,15 +85,33 @@ Secretaries of state — current and historical:
   Secretary of State for India and Burma:
     Wikidata identifier: [No code found.]
     Department:  India and Burma Office
+  Secretary of State for Industry:
+    Wikidata identifier: [No code found.]
+    Department: Department for Industry
+  Secretary of State for Industry, Trade and Regional Development:
+    Wikidata identifier: [No code found.]
+    Department: Department for Industry, Trade and Regional Development
+  Secretary of State for Innovation, Universities and Skills:
+    Wikidata identifier: Q7444350
+    Department: Department for Innovation, Universities and Skills
   Secretary of State for International Trade:
     Wikidata identifier: Q25863345
+  Secretary of State for International Development:
+    Wikidata identifier: Q7444352
+    Department: Department for International Development
     Department: Department for International Trade
+  Secretary of State for Foreign Affairs:
+    Wikidata identifier: [No code found.]
+    Department: Foreign Office
   Secretary of State for Justice:
     Department: Ministry of Justice
     Wikidata identifier: Q3477307
   Secretary of State for Levelling Up, Housing and Communities:
     Wikidata identifier: [No code found.]
     Department: Department for Levelling Up, Housing and Communities
+  Secretary of State for Local Government and Regional Planning:
+    Wikidata identifier: [No code found.]
+    Department: Department of Local Government and Regional Planning
   Secretary of State for National Heritage:
     Wikidata identifier: [No code found.]
     Department: Department for National Heritage
@@ -106,6 +130,12 @@ Secretaries of state — current and historical:
   Secretary of State for Scotland:
     Wikidata identifier: Q111784
     Department: Scotland Office
+  Secretary of State for Social Security:
+    Wikidata identifier: [No code found.]
+    Department: Department of Health and Social Security
+  Secretary of State for Social Services:
+    Wikidata identifier: Q4122328
+    Department: Department of Health and Social Security
   Secretary of State for the Southern Department:
     Wikidata identifier: Q3954357
     Department: Southern Department
@@ -181,33 +211,15 @@ Secretaries of state — current and historical:
   Secretary of State for Energy:
     Wikidata identifier: Q19968043
     Department: Department for Employment and Productivity
-  Secretary of State for Foreign Affairs:
-    Wikidata identifier: [No code found.]
-    Department: Foreign Office
-  Secretary of State for Foreign and Commonwealth Affairs:
-    Wikidata identifier: Q1371091
-    Department: Foreign and Commonwealth Office
-  Secretary of State for Industry:
-    Wikidata identifier: [No code found.]
-    Department: Department for Industry
-  Secretary of State for Industry, Trade and Regional Development:
-    Wikidata identifier: [No code found.]
-    Department: Department for Industry, Trade and Regional Development
-  Secretary of State for Innovation, Universities and Skills:
-    Wikidata identifier: Q7444350
-    Department: Department for Innovation, Universities and Skills
-  Secretary of State for International Development:
-    Wikidata identifier: Q7444352
-    Department: Department for International Development
-  Secretary of State for Local Government and Regional Planning:
-    Wikidata identifier: [No code found.]
-    Department: Department of Local Government and Regional Planning
-  Secretary of State for Social Security:
-    Wikidata identifier: [No code found.]
-    Department: Department of Health and Social Security
-  Secretary of State for Social Services:
-    Wikidata identifier: Q4122328
-    Department: 
+
+
+
+
+
+
+
+
+
 
 
 
