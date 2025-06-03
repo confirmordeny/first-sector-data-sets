@@ -8,14 +8,29 @@
 | Secretary of State for Burma | No code found. | Burma Office |
 | Secretary of State for Business and Trade | Q3858507 | Department for Business and Trade |
 | Secretary of State for Business, Energy and Industrial Strategy | None | No code found. |
+| Secretary of State for Business, Enterprise and Regulatory Reform | No code found. | Department for Business, Enterprise and Regulatory Reform |
 | Secretary of State for Business, Innovation and Skills | No code found. | Department for Business, Innovation & Skills |
 | Secretary of State in the Cabinet Office | Q118897146 | Cabinet Office |
+| Secretary of State for Children, Schools and Families | Q7444335 | Department for Children, Schools and Families |
 | Secretary of State for the Colonies | Q2519998 | Colonial Office |
 | Secretary of State for Commonwealth Affairs | Q7444336 | Commonwealth Office |
+| Secretary of State for Commonwealth Relations | Q7444337 | Commonwealth Relations Office |
+| Secretary of State for Communities and Local Government | No code found. | Department for Communities and Local Government |
+| Secretary of State for Constitutional Affairs | Q7444338 | Department for Constitutional Affairs |
+| Secretary of State for Culture, Olympics, Media and Sport | No code found. | Department for Culture, Olympics, Media and Sport |
 | Secretary of State for Culture, Media and Sport | Q3297079 | Department for Culture, Media and Sport |
 | Secretary of State for Defence | Q2747647 | Ministry of Defence |
+| Secretary of State for Digital, Culture, Media and Sport | No code found. | Department for Digital, Culture, Media and Sport |
+| Secretary of State for Dominion Affairs | Q7444340 | Dominion Office |
+| Secretary of State for Economic Affairs | Q611513 | Department of Economic Affairs |
 | Secretary of State for Education | Q3477306 | Department for Education |
+| Secretary of State for Education and Employment | No code found. | Department for Education and Employment |
+| Secretary of State for Education and Science | No code found. | Department for Education and Science |
+| Secretary of State for Education and Skills | No code found. | Department for Education and Skills |
+| Secretary of State for Employment | Q7444342 | Department for Employment |
+| Secretary of State for Employment and Productivity | No code found. | Department for Employment and Productivity |
 | Secretary of State for Energy and Climate Change | Q7444345 | Department of Energy & Climate Change |
+| Secretary of State for Energy | Q19968043 | Department for Energy |
 | Secretary of State for Energy Security and Net Zero | Q116728869 | Department for Energy Security and Net Zero |
 | Secretary of State for the Environment | Q4122313 | Department of the Environment |
 | Secretary of State for Environment, Food and Rural Affairs | Q14984399 | Department for the Environment, Food and Rural Affairs |
@@ -56,18 +71,3 @@
 | Secretary of State for War | Q622568 | War Office |
 | Secretary of State for War and the Colonies | Q1546682 | War and Colonial Office |
 | Secretary of State for Work and Pensions | Q7444357 | Department for Work and Pensions |
-| Secretary of State for Business, Enterprise and Regulatory Reform | No code found. | Department for Business, Enterprise and Regulatory Reform |
-| Secretary of State for Children, Schools and Families | Q7444335 | Department for Children, Schools and Families |
-| Secretary of State for Commonwealth Relations | Q7444337 | Commonwealth Relations Office |
-| Secretary of State for Communities and Local Government | No code found. | Department for Communities and Local Government |
-| Secretary of State for Constitutional Affairs | Q7444338 | Department for Constitutional Affairs |
-| Secretary of State for Culture, Olympics, Media and Sport | No code found. | Department for Culture, Olympics, Media and Sport |
-| Secretary of State for Digital, Culture, Media and Sport | No code found. | Department for Digital, Culture, Media and Sport |
-| Secretary of State for Dominion Affairs | Q7444340 | Dominion Office |
-| Secretary of State for Economic Affairs | Q611513 | Department of Economic Affairs |
-| Secretary of State for Education and Employment | No code found. | Department for Education and Employment |
-| Secretary of State for Education and Science | No code found. | Department for Education and Science |
-| Secretary of State for Education and Skills | No code found. | Department for Education and Skills |
-| Secretary of State for Employment | Q7444342 | Department for Employment |
-| Secretary of State for Employment and Productivity | No code found. | Department for Energy |
-| Secretary of State for Energy | Q19968043 | Department for Employment and Productivity |
