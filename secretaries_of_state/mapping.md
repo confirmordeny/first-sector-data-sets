@@ -47,8 +47,8 @@
 | Secretary of State for Industry | No code found. | Department for Industry |
 | Secretary of State for Industry, Trade and Regional Development | No code found. | Department for Industry, Trade and Regional Development |
 | Secretary of State for Innovation, Universities and Skills | Q7444350 | Department for Innovation, Universities and Skills |
-| Secretary of State for International Trade | Q25863345 |  |
-| Secretary of State for International Development | Q7444352 | Department for International Trade |
+| Secretary of State for International Trade | Q25863345 | Department for International Trade |
+| Secretary of State for International Development | Q7444352 | Department for International Development |
 | Secretary of State for Foreign Affairs | No code found. | Foreign Office |
 | Secretary of State for Justice | Q3477307 | Ministry of Justice |
 | Secretary of State for Levelling Up, Housing and Communities | No code found. | Department for Levelling Up, Housing and Communities |
