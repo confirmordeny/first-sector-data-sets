@@ -33,8 +33,8 @@ jobs:
               data = yaml.safe_load(f)
 
           # Support nested top-level structure
-          if "District Salmon Fisheries Boards" in data:
-              data = data["District Salmon Fisheries Boards"]
+          if "District Salmon Fishery Boards" in data:
+              data = data["District Salmon Fishery Boards"]
 
           headers = ["Full name", "Short name"]
           rows = []
