@@ -49,7 +49,7 @@ jobs:
               rows.append([fishery.strip(), shortname])
 
           # Add invisible edit warning
-          md = "<!-- ⚠️ This file is auto-generated from mapping.yaml. Do not edit it manually. -->\\n\\n"
+          md = "<!-- ⚠️ This file is auto-generated from district-salmon-fisheries-boards.yaml. Do not edit it manually. -->\\n\\n"
           md += f"| {' | '.join(headers)} |\\n"
           md += f"| {' | '.join(['-' * len(h) for h in headers])} |\\n"
           for row in rows:
