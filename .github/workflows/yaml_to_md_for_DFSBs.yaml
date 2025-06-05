@@ -40,7 +40,7 @@ jobs:
           rows = []
 
           for fishery, details in data.items():
-              shortname_raw = details.get("Short name", "")
+              shortname_raw = details.get("short name", "")
               if isinstance(shortname_raw, list):
                   shortname = ", ".join(str(w) for w in shortname_raw)
               else:
