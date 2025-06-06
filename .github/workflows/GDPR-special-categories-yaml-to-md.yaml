@@ -36,7 +36,7 @@ jobs:
           if "GDPR special categories" in data:
               data = data["GDPR special categories"]
 
-          headers = ["Summary, "Description"]
+          headers = ["Summary", "Description"]
           rows = []
 
           for category, details in data.items():
