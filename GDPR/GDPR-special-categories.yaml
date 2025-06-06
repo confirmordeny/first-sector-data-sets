@@ -20,6 +20,8 @@ GDPR special categories:
   Sexual orientation:
     Description: "data concerning a person’s sexual orientation"
 #
+# Notes:
+# EU GDPR rules are similar the UK rules.
 # Sources: 
 # https://www.legislation.gov.uk/eur/2016/679/article/9
 # "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs,
