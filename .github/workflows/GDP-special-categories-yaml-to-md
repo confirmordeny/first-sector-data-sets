@@ -1,0 +1,73 @@
+name: Convert YAML to Markdown for GDPR categories
+
+on:
+  push:
+    paths:
+      - 'GDPR/GDPR-special-categories.yaml'
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Convert YAML to Markdown Table
+        run: |
+          python3 <<EOF
+          import yaml
+
+          with open('GDPR/GDPR-special-categories.yaml', 'r') as f:
+              data = yaml.safe_load(f)
+
+          # Support nested top-level structure
+          if "GDPR special categories" in data:
+              data = data["GDPR special categories"]
+
+          headers = ["Summary, "Description"]
+          rows = []
+
+          for category, details in data.items():
+              description_raw = details.get("Description", "")
+              if isinstance(description_raw, list):
+                  description = ", ".join(str(w) for w in description_raw)
+              else:
+                  description = str(description_raw).strip()
+
+              rows.append([category.strip(), description])
+
+          # Add invisible edit warning
+          md = "<!-- ⚠️ This file is auto-generated from GDPR-special-categories.yaml Do not edit it manually. -->\\n\\n"
+          md += f"| {' | '.join(headers)} |\\n"
+          md += f"| {' | '.join(['-' * len(h) for h in headers])} |\\n"
+          for row in rows:
+              md += f"| {' | '.join(row)} |\\n"
+
+          with open('GDPR/GDPR-special-categories.md', 'w') as f:
+              f.write(md)
+          EOF
+
+      - name: Commit Markdown file
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+          git add GDPR/GDPR-special-categories.md
+          git status
+          git diff
+          git commit -m "Update Markdown from YAML" || echo "No changes to commit"
+          git push origin HEAD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
