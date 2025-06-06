@@ -1,0 +1,27 @@
+# The sources are given at the end.
+GDPR special categories:
+  Racial or ethnic origin:
+   Description: "personal data revealing racial or ethnic origin"
+  Political opinions:
+    Description: "personal data revealing political opinions"
+  Religious or philosophical beliefs:
+    Description: "personal data revealing religious or philosophical beliefs"
+  Trade union membership:
+    Description: "personal data revealing trade union membership"
+  Genetic data:
+    Description: "genetic data of individuals"
+  Biometric data:
+    Description: "biometric data used for identification of individuals"
+  Health: 
+    Description: "personal data concerning health"
+  Sex life:
+    Description: "data concerning a person’s sex life"
+  Sexual orientation:
+    Description: "data concerning a person’s sexual orientation"
+ #
+# Sources: 
+# https://www.legislation.gov.uk/eur/2016/679/article/9
+# "Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs,
+# or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a 
+# natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited"
+# https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/
