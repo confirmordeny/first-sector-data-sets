@@ -51,29 +51,28 @@ SMALL HOUSEHOLD APPLIANCES:
    - scales (electric)
    - shaver (electric)
    - toothbrush (electric)
-   
 IT AND TELECOMMUNICATIONS EQUIPMENT:
   subcategories:
 # Subheading removed: "Centralised data processing".
-    - Mainframes
-    - Minicomputers
-    - Printer units
+    - mainframes
+    - minicomputers
+    - printer units
 # Subheading removed: "Personal computing".
-    - Personal computers (CPU, mouse, screen and keyboard included)
-    - Laptop computers (CPU, mouse, screen and keyboard included)
-    - Notebook computers
-    - Notepad computers
-    - Printers
-    - Copying equipment
-    - Electrical and electronic typewriters
-    - Pocket and desk calculator
-    - Other products and equipment for the collection, storage, processing, presentation or communication of information by electronic means
-    - User terminals and systems
-    - Facsimile machine (fax)
-    - Telex
-    - Telephones
-    - Pay telephones
-    - Cordless telephones
+    - personal computers (CPU, mouse, screen and keyboard included)
+    - laptop computers (CPU, mouse, screen and keyboard included)
+    - notebook computers
+    - notepad computers
+    - printers
+    - copying equipment
+    - electrical and electronic typewriters
+    - pocket and desk calculator
+    - other products and equipment for the collection, storage, processing, presentation or communication of information by electronic means
+    - user terminals and systems
+    - facsimile machine (fax)
+    - telex
+    - telephones
+    - pay telephones
+    - cordless telephones
     - cellular telephones
     - answering systems
     - other products or equipment of transmitting sound, images or other information by telecommunications
@@ -87,66 +86,69 @@ IT AND TELECOMMUNICATIONS EQUIPMENT:
     - printer
 CONSUMER EQUIPMENT AND PHOTOVOLTAIC PANELS:
   subcategories:
-    - Radio sets
-    - Television sets
-    - Video cameras
-    - Video recorders
-    - Hi-fi recorders
-    - Audio amplifiers
-    - Musical instruments
-    - Other products or equipment for the purpose of recording or reproducing sound or images, including signals or other technologies for the distribution of sound and image than by telecommunications
-    - Photovoltaic panels
+    - radio sets
+    - television sets
+    - video cameras
+    - video recorders
+    - hi-fi recorders
+    - audio amplifiers
+    - musical instruments
+    - other products or equipment for the purpose of recording or reproducing sound or images, including signals or other technologies for the distribution of sound and image than by telecommunications
+    - photovoltaic panels
 LIGHTING EQUIPMENT:
   subcategories:
-    - Luminaires for fluorescent lamps with the exception of luminaires in households
-    - Straight fluorescent lamps
-    - Compact fluorescent lamps
-    - High intensity discharge lamps, including pressure sodium lamps and metal halide lamps
-    - Low pressure sodium lamps
-    - Other lighting or equipment for the purpose of spreading or controlling light with the exception of filament bulbs
+    - luminaires for fluorescent lamps with the exception of luminaires in households
+    - straight fluorescent lamps
+    - compact fluorescent lamps
+    - high intensity discharge lamps, including pressure sodium lamps and metal halide lamps
+    - low pressure sodium lamps
+    - other lighting or equipment for the purpose of spreading or controlling light with the exception of filament bulbs
 ELECTRICAL AND ELECTRONIC TOOLS (WITH THE EXCEPTION OF LARGE-SCALE STATIONARY INDUSTRIAL TOOLS):
   subcategories:
-    - Drills
-    - Saws
-    - Sewing machines
-    - Equipment for turning, milling, sanding, grinding, sawing, cutting, shearing, drilling, making holes, punching, folding, bending or similar processing of wood, metal and other materials
-    - Tools for riveting, nailing or screwing or removing rivets, nails, screws or similar usesTools for welding, soldering or similar use
-    - Equipment for spraying, spreading, dispersing or other treatment of liquid or gaseous substances by other means
-    - Tools for mowing or other gardening activities
+    - drills
+    - saws
+    - sewing machines
+    - equipment for turning, milling, sanding, grinding, sawing, cutting, shearing, drilling, making holes, punching, folding, bending or similar processing of wood, metal and other materials
+    - tools for riveting, nailing or screwing or removing rivets, nails, screws or similar usesTools for welding, soldering or similar use
+    - equipment for spraying, spreading, dispersing or other treatment of liquid or gaseous substances by other means
+    - tools for mowing or other gardening activities
 TOYS, LEISURE AND SPORTS EQUIPMENT:
   subcategories:
-    - Electric trains or car racing sets
-    - Hand-held video game consoles
-    - Video games
-    - Computers for biking, diving, running, rowing, etc.
-    - Sports equipment with electric or electronic components
-    - Coin slot machines
+    - electric trains or car racing sets
+    - hand-held video game consoles
+    - video games
+    - computers for biking, diving, running, rowing, etc.
+    - sports equipment with electric or electronic components
+    - coin slot machines
 MEDICAL DEVICES (WITH THE EXCEPTION OF ALL IMPLANTED AND INFECTED PRODUCTS):
   subcategories:
-    - Radiotherapy equipment
-    - Cardiology equipment
-    - Dialysis equipment
-    - Pulmonary ventilators
-    - Nuclear medicine equipment
-    - Laboratory equipment for in-vitro diagnosis
-    - Analysers
-    - Freezers
-    - Fertilization tests
-    - Other appliances for detecting, preventing, monitoring, treating, alleviating illness, injury or disability
+    - radiotherapy equipment
+    - cardiology equipment
+    - dialysis equipment
+    - pulmonary ventilators
+    - nuclear medicine equipment
+    - laboratory equipment for in-vitro diagnosis
+    - analysers
+    - freezers
+    - fertilization tests
+    - other appliances for detecting, preventing, monitoring, treating, alleviating illness, injury or disability
 MONITORING AND CONTROL INSTRUMENTS:
   subcategories:
-    - Smoke detector
-    - Heating regulators
-    - Thermostats
-    - Measuring, weighing or adjusting appliances for household or laboratory equipment
-    - Other monitoring and control instruments used in industrial installations (for example, in control panels)
+    - smoke detector
+    - heating regulators
+    - thermostats
+    - measuring, weighing or adjusting appliances for household or laboratory equipment
+    - other monitoring and control instruments used in industrial installations (for example, in control panels)
 AUTOMATIC DISPENSERS:
   subcategories:
-    - Automatic dispensers for hot drinks
-    - Automatic dispensers for hot or cold bottles or cans
-    - Automatic dispensers for solid products
-    - Automatic dispensers for money
-    - All appliances which deliver automatically all kind of products
+    - automatic dispensers for hot drinks
+    - automatic dispensers for hot or cold bottles or cans
+    - automatic dispensers for solid products
+    - automatic dispensers for money
+    - all appliances which deliver automatically all kind of products
+  examples:
+    - vending machine
+    - vendor
 #
 # *** Copyright of source legislation ***
 # The legislation from which this list was taken has the following copyright notice:
