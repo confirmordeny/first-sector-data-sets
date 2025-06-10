@@ -139,6 +139,8 @@ MEDICAL DEVICES (WITH THE EXCEPTION OF ALL IMPLANTED AND INFECTED PRODUCTS):
   - freezers
   - fertilization tests
   - other appliances for detecting, preventing, monitoring, treating, alleviating illness, injury or disability
+  examples:
+   - ventilator (medical)
 MONITORING AND CONTROL INSTRUMENTS:
  specification elements:
   - smoke detector
@@ -146,6 +148,8 @@ MONITORING AND CONTROL INSTRUMENTS:
   - thermostats
   - measuring, weighing or adjusting appliances for household or laboratory equipment
   - other monitoring and control instruments used in industrial installations (for example, in control panels)
+  examples:
+   - thermostat
 AUTOMATIC DISPENSERS:
  specification elements:
   - automatic dispensers for hot drinks
