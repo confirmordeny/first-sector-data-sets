@@ -28,6 +28,7 @@ examples:
     - microwave
     - radiator (electric)
     - fan (electric)
+    - washing machine
 SMALL HOUSEHOLD APPLIANCES:
   subcategories:
     - Vacuum cleaners
