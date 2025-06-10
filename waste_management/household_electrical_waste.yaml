@@ -23,6 +23,11 @@ LARGE HOUSEHOLD APPLIANCES:
     - Electric fans
     - Air conditioner appliances
     - Other fanning, exhaust ventilation and conditioning equipment
+examples:
+    - dishwasher
+    - microwave
+    - radiator (electric)
+    - fan (electric)
 SMALL HOUSEHOLD APPLIANCES:
   subcategories:
     - Vacuum cleaners
@@ -37,6 +42,13 @@ SMALL HOUSEHOLD APPLIANCES:
     - Appliances for hair-cutting, hair drying, tooth brushing, shaving, massage and other body care appliances
     - Clocks, watches and equipment for the purpose of measuring, indicating or registering time
     - Scales
+  examples:
+   - electric scales
+   - electric toothbrish
+   - toaster
+   - scales (electric)
+   - toothbrush (electric)
+   
 IT AND TELECOMMUNICATIONS EQUIPMENT:
   subcategories:
 # Subheading removed: "Centralised data processing".
