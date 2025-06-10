@@ -3,170 +3,172 @@
 # I have made other formatting changes.
 # Copyright information is at the end of the file.
 #
-LARGE HOUSEHOLD APPLIANCES:
- specification elements:
-  - large cooling appliances
-  - refrigerators
-  - freezers
-  - other large appliances used for refrigeration, conservation and storage of food
-  - washing machines
-  - clothes dryers
-  - dish washing machines
-  - cookers
-  - electric stoves
-  - electric hot plates
-  - microwaves
-  - other large appliances used for cooking and other processing of food
-  - electric heating appliances
-  - electric radiators
-  - other large appliances for heating rooms, beds, seating furniture
-  - electric fans
-  - air conditioner appliances
-  - other fanning, exhaust ventilation and conditioning equipment
-examples:
-  - dishwasher
-  - fan (electric)
-  - fridge
-  - iron
-  - microwave
-  - radiator (electric)
-  - refrigerator
-  - washing machine
-SMALL HOUSEHOLD APPLIANCES:
- specification elements:
-  - vacuum cleaners
-  - carpet sweepers
-  - other appliances for cleaning
-  - appliances used for sewing, knitting, weaving and other processing for textiles
-  - irons and other appliances for ironing, mangling and other care of clothing
-  - toasters
-  - fryers
-  - grinders, coffee machines and equipment for opening or sealing containers or packages
-  - electric knives
-  - appliances for hair-cutting, hair drying, tooth brushing, shaving, massage and other body care appliances
-  - clocks, watches and equipment for the purpose of measuring, indicating or registering time
-  - scales
- examples:
-  - clocks (electric)
-  - coffee machine
-  - digital watch
-  - electric scales
-  - electric toothbrush
-  - hairdryer
-  - hoover
-  - razor (electric)
-  - toaster
-  - scales (electric)
-  - shaver (electric)
-  - toothbrush (electric)
-  - vacuum cleaner
-  - watches (electric)
-IT AND TELECOMMUNICATIONS EQUIPMENT:
- specification elements:
-# Subheading removed: "Centralised data processing".
-  - mainframes
-  - minicomputers
-  - printer units
-# Subheading removed: "Personal computing".
-  - personal computers (CPU, mouse, screen and keyboard included)
-  - laptop computers (CPU, mouse, screen and keyboard included)
-  - notebook computers
-  - notepad computers
-  - printers
-  - copying equipment
-  - electrical and electronic typewriters
-  - pocket and desk calculator
-  - other products and equipment for the collection, storage, processing, presentation or communication of information by electronic means
-  - user terminals and systems
-  - facsimile machine (fax)
-  - telex
-  - telephones
-  - pay telephones
-  - cordless telephones
-  - cellular telephones
-  - answering systems
-  - other products or equipment of transmitting sound, images or other information by telecommunications
- examples:
-  - calculator 
-  - cell phone
-  - fax
-  - fax machine
-  - mobile phone
-  - phone
-  - photocopier
-  - pocket calculator
-  - printer
-CONSUMER EQUIPMENT AND PHOTOVOLTAIC PANELS:
- specification elements:
-  - radio sets
-  - television sets
-  - video cameras
-  - video recorders
-  - hi-fi recorders
-  - audio amplifiers
-  - musical instruments
-  - other products or equipment for the purpose of recording or reproducing sound or images, including signals or other technologies for the distribution of sound and image than by telecommunications
-  - photovoltaic panels
-LIGHTING EQUIPMENT:
- specification elements:
-  - luminaires for fluorescent lamps with the exception of luminaires in households
-  - straight fluorescent lamps
-  - compact fluorescent lamps
-  - high intensity discharge lamps, including pressure sodium lamps and metal halide lamps
-  - low pressure sodium lamps
-  - other lighting or equipment for the purpose of spreading or controlling light with the exception of filament bulbs
-ELECTRICAL AND ELECTRONIC TOOLS (WITH THE EXCEPTION OF LARGE-SCALE STATIONARY INDUSTRIAL TOOLS):
- specification elements:
-  - drills
-  - saws
-  - sewing machines
-  - equipment for turning, milling, sanding, grinding, sawing, cutting, shearing, drilling, making holes, punching, folding, bending or similar processing of wood, metal and other materials
-  - tools for riveting, nailing or screwing or removing rivets, nails, screws or similar uses
-  - Tools for welding, soldering or similar use
-  - equipment for spraying, spreading, dispersing or other treatment of liquid or gaseous substances by other means
-  - tools for mowing or other gardening activities
-TOYS, LEISURE AND SPORTS EQUIPMENT:
- specification elements:
-  - electric trains or car racing sets
-  - hand-held video game consoles
-  - video games
-  - computers for biking, diving, running, rowing, etc.
-  - sports equipment with electric or electronic components
-  - coin slot machines
-MEDICAL DEVICES (WITH THE EXCEPTION OF ALL IMPLANTED AND INFECTED PRODUCTS):
- specification elements:
-  - radiotherapy equipment
-  - cardiology equipment
-  - dialysis equipment
-  - pulmonary ventilators
-  - nuclear medicine equipment
-  - laboratory equipment for in-vitro diagnosis
-  - analysers
-  - freezers
-  - fertilization tests
-  - other appliances for detecting, preventing, monitoring, treating, alleviating illness, injury or disability
-  examples:
-   - ventilator (medical)
-MONITORING AND CONTROL INSTRUMENTS:
- specification elements:
-  - smoke detector
-  - heating regulators
-  - thermostats
-  - measuring, weighing or adjusting appliances for household or laboratory equipment
-  - other monitoring and control instruments used in industrial installations (for example, in control panels)
-  examples:
-   - thermostat
-AUTOMATIC DISPENSERS:
- specification elements:
-  - automatic dispensers for hot drinks
-  - automatic dispensers for hot or cold bottles or cans
-  - automatic dispensers for solid products
-  - automatic dispensers for money
-  - all appliances which deliver automatically all kind of products
- examples:
-  - vending machine
-  - vendor
-#
+electrical and electronic equipment:
+  large household appliances:
+    specification elements:
+      - large cooling appliances
+      - refrigerators
+      - freezers
+      - other large appliances used for refrigeration, conservation and storage of food
+      - washing machines
+      - clothes dryers
+      - dish washing machines
+      - cookers
+      - electric stoves
+      - electric hot plates
+      - microwaves
+      - other large appliances used for cooking and other processing of food
+      - electric heating appliances
+      - electric radiators
+      - other large appliances for heating rooms, beds, seating furniture
+      - electric fans
+      - air conditioner appliances
+      - other fanning, exhaust ventilation and conditioning equipment
+    examples:
+      - dishwasher
+      - fan (electric)
+      - fridge
+      - iron
+      - microwave
+      - radiator (electric)
+      - refrigerator
+      - washing machine
+  small household appliances:
+    specification elements:
+      - vacuum cleaners
+      - carpet sweepers
+      - other appliances for cleaning
+      - appliances used for sewing, knitting, weaving and other processing for textiles
+      - irons and other appliances for ironing, mangling and other care of clothing
+      - toasters
+      - fryers
+      - grinders, coffee machines and equipment for opening or sealing containers or packages
+      - electric knives
+      - appliances for hair-cutting, hair drying, tooth brushing, shaving, massage and other body care appliances
+      - clocks, watches and equipment for the purpose of measuring, indicating or registering time
+      - scales
+    examples:
+      - clocks (electric)
+      - coffee machine
+      - digital watch
+      - electric scales
+      - electric toothbrush
+      - hairdryer
+      - hoover
+      - razor (electric)
+      - toaster
+      - scales (electric)
+      - shaver (electric)
+      - toothbrush (electric)
+      - vacuum cleaner
+      - watches (electric)
+  information technology and telecommunications equipment:
+    specification elements:
+      # Subheading removed: "Centralised data processing".
+      - mainframes
+      - minicomputers
+      - printer units
+      # Subheading removed: "Personal computing".
+      - personal computers (CPU, mouse, screen and keyboard included)
+      - laptop computers (CPU, mouse, screen and keyboard included)
+      - notebook computers
+      - notepad computers
+      - printers
+      - copying equipment
+      - electrical and electronic typewriters
+      - pocket and desk calculator
+      - other products and equipment for the collection, storage, processing, presentation or communication of information by electronic means
+      - user terminals and systems
+      - facsimile machine (fax)
+      - telex
+      - telephones
+      - pay telephones
+      - cordless telephones
+      - cellular telephones
+      - answering systems
+      - other products or equipment of transmitting sound, images or other information by telecommunications
+    examples:
+      - calculator 
+      - cell phone
+      - fax
+      - fax machine
+      - mobile phone
+      - phone
+      - photocopier
+      - pocket calculator
+      - printer
+  consumer equipment and photovoltaic panels:
+    specification elements:
+      - radio sets
+      - television sets
+      - video cameras
+      - video recorders
+      - hi-fi recorders
+      - audio amplifiers
+      - musical instruments
+      - other products or equipment for the purpose of recording or reproducing sound or images, including signals or other technologies for the distribution of sound and image than by telecommunications
+      - photovoltaic panels
+  lighting equipment:
+    specification elements:
+      - luminaires for fluorescent lamps with the exception of luminaires in households
+      - straight fluorescent lamps
+      - compact fluorescent lamps
+      - high intensity discharge lamps, including pressure sodium lamps and metal halide lamps
+      - low pressure sodium lamps
+      - other lighting or equipment for the purpose of spreading or controlling light with the exception of filament bulbs
+  electrical and electronic tools (with the exception of large scale stationary industrial tools):
+    specification elements:
+      - drills
+      - saws
+      - sewing machines
+      - equipment for turning, milling, sanding, grinding, sawing, cutting, shearing, drilling, making holes, punching, folding, bending or similar processing of wood, metal and other materials
+      - tools for riveting, nailing or screwing or removing rivets, nails, screws or similar uses
+      - tools for welding, soldering or similar use
+      - equipment for spraying, spreading, dispersing or other treatment of liquid or gaseous substances by other means
+      - tools for mowing or other gardening activities
+  toys, leisure and sports equipment:
+    specification elements:
+      - electric trains or car racing sets
+      - hand-held video game consoles
+      - video games
+      - computers for biking, diving, running, rowing, etc.
+      - sports equipment with electric or electronic components
+      - coin slot machines
+  medical devices (with the exception of all implanted and infected products):
+    specification elements:
+       - radiotherapy equipment
+       - cardiology equipment
+       - dialysis equipment
+       - pulmonary ventilators
+       - nuclear medicine equipment
+       - laboratory equipment for in-vitro diagnosis
+       - analysers
+       - freezers
+       - fertilization tests
+       - other appliances for detecting, preventing, monitoring, treating, alleviating illness, injury or disability
+    examples:
+      - ventilator (medical)
+  monitoring and control instruments:
+    specification elements:
+      - smoke detector
+      - heating regulators
+      - thermostats
+      - measuring, weighing or adjusting appliances for household or laboratory equipment
+      - other monitoring and control instruments used in industrial installations (for example, in control panels)
+    examples:
+      - thermostat
+  automatic dispensers:
+   specification elements:
+     - automatic dispensers for hot drinks
+     - automatic dispensers for hot or cold bottles or cans
+     - automatic dispensers for solid products
+     - automatic dispensers for money
+     - all appliances which deliver automatically all kind of products
+   examples:
+     - drinks machine
+     - vending machine
+# *** Notes ***
+# Some abbreviayions have been expanded.
 # *** Copyright of source legislation ***
 # The legislation from which this list was taken has the following copyright notice:
 # All content is available under the Open Government Licence v3.0 except where otherwise stated. 
@@ -174,3 +176,4 @@ AUTOMATIC DISPENSERS:
 # Commission Decision 2011/833/EU on the reuse of documents from the EU institutions. 
 # For more information see the EUR -Lex public statement on re -use.
 # See also: https://www.legislation.gov.uk/uksi/2013/3113/schedule/2
+#
