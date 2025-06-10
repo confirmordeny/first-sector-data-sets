@@ -5,24 +5,24 @@
 #
 LARGE HOUSEHOLD APPLIANCES:
   subcategories:
-    - Large cooling appliances
-    - Refrigerators
-    - Freezers
-    - Other large appliances used for refrigeration, conservation and storage of food
-    - Washing machines
-    - Clothes dryers
-    - Dish washing machines
-    - Cookers
-    - Electric stoves
-    - Electric hot plates
-    - Microwaves
-    - Other large appliances used for cooking and other processing of food
-    - Electric heating appliances
-    - Electric radiators
-    - Other large appliances for heating rooms, beds, seating furniture
-    - Electric fans
-    - Air conditioner appliances
-    - Other fanning, exhaust ventilation and conditioning equipment
+    - large cooling appliances
+    - refrigerators
+    - freezers
+    - other large appliances used for refrigeration, conservation and storage of food
+    - washing machines
+    - clothes dryers
+    - dish washing machines
+    - cookers
+    - electric stoves
+    - electric hot plates
+    - microwaves
+    - other large appliances used for cooking and other processing of food
+    - electric heating appliances
+    - electric radiators
+    - other large appliances for heating rooms, beds, seating furniture
+    - electric fans
+    - air conditioner appliances
+    - other fanning, exhaust ventilation and conditioning equipment
 examples:
     - dishwasher
     - microwave
@@ -31,23 +31,25 @@ examples:
     - washing machine
 SMALL HOUSEHOLD APPLIANCES:
   subcategories:
-    - Vacuum cleaners
-    - Carpet sweepers
-    - Other appliances for cleaning
-    - Appliances used for sewing, knitting, weaving and other processing for textiles
-    - Irons and other appliances for ironing, mangling and other care of clothing
-    - Toasters
-    - Fryers
-    - Grinders, coffee machines and equipment for opening or sealing containers or packages
-    - Electric knives
-    - Appliances for hair-cutting, hair drying, tooth brushing, shaving, massage and other body care appliances
-    - Clocks, watches and equipment for the purpose of measuring, indicating or registering time
-    - Scales
+    - vacuum cleaners
+    - carpet sweepers
+    - other appliances for cleaning
+    - appliances used for sewing, knitting, weaving and other processing for textiles
+    - irons and other appliances for ironing, mangling and other care of clothing
+    - toasters
+    - fryers
+    - grinders, coffee machines and equipment for opening or sealing containers or packages
+    - electric knives
+    - appliances for hair-cutting, hair drying, tooth brushing, shaving, massage and other body care appliances
+    - clocks, watches and equipment for the purpose of measuring, indicating or registering time
+    - scales
   examples:
    - electric scales
-   - electric toothbrish
+   - electric toothbrush
+   - razor (electric)
    - toaster
    - scales (electric)
+   - shaver (electric)
    - toothbrush (electric)
    
 IT AND TELECOMMUNICATIONS EQUIPMENT:
@@ -72,9 +74,17 @@ IT AND TELECOMMUNICATIONS EQUIPMENT:
     - Telephones
     - Pay telephones
     - Cordless telephones
-    - Cellular telephones
-    - Answering systems
-    - Other products or equipment of transmitting sound, images or other information by telecommunications
+    - cellular telephones
+    - answering systems
+    - other products or equipment of transmitting sound, images or other information by telecommunications
+  examples:
+    - cell phone
+    - fax
+    - fax machine
+    - mobile phone
+    - phone
+    - photocopier
+    - printer
 CONSUMER EQUIPMENT AND PHOTOVOLTAIC PANELS:
   subcategories:
     - Radio sets
