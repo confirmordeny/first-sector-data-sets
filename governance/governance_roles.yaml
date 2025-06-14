@@ -1,28 +1,31 @@
 # Sources include: https://www.eiopa.europa.eu/glossary_en
 # enter in lowercase
-Governance roles:
-  Member of governing body:
-    - board member 
+governance roles:
+  member of governing body:
+    
     - director
     - governor
     - trustee
+    # executive roles
     - executive director
+    # non-executive roles
     - independent non-executive director
+    - lead independent director
     - non-executive director
-    - member of the board
+    - senior independent director
+    # titles based on membership
+    - board member 
     - member of the administrative board
+    - member of the board
     - member of the management board
     - member of the supervisory board
     - member of the governing body
-    - lead independent director
-    - senior independent director
-    - executive vice president
-  Chair:
+  chair:
     - chair
     - chairperson
     - chairman
     - chairwoman
-  Vice Chair:
+  vice Chair:
     - deputy chair
     - deputy chairperson
     - deputy chairman
@@ -31,17 +34,18 @@ Governance roles:
     - vice chairperson
     - vice chairman
     - vice chairwoman
-  Board Committee Chairs:
+  board committee chairs:
     - chair of the audit committee
     - chair of the finance committee
     - chair of the remuneration committee
-  Chief Executive:
+  chief executive:
+    # generic titles
      - chief executive
      - chief executive officer
      - ceo
      - managing director
      - managing partner
-     - secretary general
+     - president
      # Industry specific titles
      - auditor general
      - chancellor
@@ -50,16 +54,17 @@ Governance roles:
      - headteacher
      - information commissioner
      - provost
+     - secretary general
      - vice Chancellor
-  chief Financial Officer:
+  chief financial officer:
      - chief financial officer 
      - chief finance officer
      - cfo
      - treasurer
   chief operating office:
     - chief operating officer
-  Other:
-    - president
+    - coo
+
   
 
   
