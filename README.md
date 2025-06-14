@@ -6,7 +6,8 @@ Started in late May 2025.
 1. [Regnal names](/regnal_names)
 2. [Secretaries of State](/secretaries_of_state)
 3. [GDPR special categories](/GDPR)
-4. [Categories of electrical waste](/waste_management)
+4. [District Salmon Fisheries Boards](/fisheries)
+5. [Categories of electrical waste](/waste_management)
 
 ## Contributing
 
