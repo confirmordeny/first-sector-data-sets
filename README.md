@@ -5,7 +5,7 @@ Started in late May 2025.
 ## List of data sets
 1. [Regnal names](/regnal_names)
 2. [Secretaries of State](/secretaries_of_state)
-3. [GDPR special categorories](/GDPR)
+3. [GDPR special categories](/GDPR)
 4. [Categories of electrical waste](/waste_management)
 
 ## Contributing
