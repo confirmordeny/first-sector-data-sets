@@ -8,6 +8,7 @@ Governance_stop_list:
   - elected
   - ex officio
   # Not available
+   - on administrative leave
    - on annual leave
    - on garden leave
    - on gardening leave
@@ -15,14 +16,18 @@ Governance_stop_list:
    - on maternity leave
    - on parental leave
    - on paternity leave
-  - on secondment
+   - on compassionate leave
+   - on sabbatical
+   - on secondment
+   - on study leave
    - on sick leave 
   # Hours
   - part-time
   - full-time
-  # unpaid
+  # Unpaid
   - honorary
   - honorary
+  - pro bono
   - unpaid
   - voluntary
   - volunteer
@@ -41,6 +46,7 @@ Governance_stop_list:
   - pro tempore
   - provisional
   - seconded
+  - stand-in
   - substitute
   - temporary
   - visiting
@@ -49,6 +55,8 @@ Governance_stop_list:
   - de jure
   - executive
   - non-executive
+  - voting
+  - non-voting
  # Life cycle
   - "-elect"
   - current
@@ -59,10 +67,13 @@ Governance_stop_list:
   - newly-appointed
   - nominee
   - outgoing
+  - past
   - present
   - previous
   - retiring
   # Other
+  - founder
+  - not seeking re-election
   - without portfolio
    
 
