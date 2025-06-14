@@ -31,7 +31,7 @@ Governance_stop_list:
     - unpaid
     - voluntary
     - volunteer
-   temporary_or_provisional:
+  temporary_or_provisional:
     - acting
     - ad interim
     - alternate
@@ -52,17 +52,17 @@ Governance_stop_list:
   legal_status:
     - de facto
     - de jure
-  executive_or_non-executive:
+  executive_or_non_executive:
     - executive
     - non-executive
-  voting_or_nonvoting:
+  voting_or_non_voting:
     - non-voting
     - voting
   role_life_cycle:
     - "-elect"
     - current
-    - emerita # feminine
-    - emeritus # masculine
+    - emerita  # feminine
+    - emeritus  # masculine
     - incumbent
     - incoming
     - in training
@@ -75,7 +75,7 @@ Governance_stop_list:
     - previous
     - retired
     - retiring
-  # Other
-  - founder
-  - not seeking re-election
-  - without portfolio
+  other_role_modifiers:
+    - founder
+    - not seeking re-election
+    - without portfolio
