@@ -3,19 +3,25 @@ Governance_stop_list:
   - "-elect"
   - acting
   - ad interim
+  - appointed
+  - caretaker
+  - co-opted
   - current
   - de facto
-  - de juro
+  - de jure
+  - designate
+  - elected
   - ex officio
+  - full-time
   - for the time being
   - incumbent
   - interim
   - newly-appointed
   - on secondment
   - outgoing
+  - part-time
   - present
   - pro tempore
   - provisional
   - temporary
  
-
