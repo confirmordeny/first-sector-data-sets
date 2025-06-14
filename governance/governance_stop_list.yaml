@@ -17,7 +17,9 @@ Governance_stop_list:
   - for the time being
   - incumbent
   - interim
+  - locum tenens
   - newly-appointed
+  - on leave
   - on secondment
   - outgoing
   - part-time
@@ -25,4 +27,5 @@ Governance_stop_list:
   - pro tempore
   - provisional
   - temporary
- 
+  - without portfolio
+
