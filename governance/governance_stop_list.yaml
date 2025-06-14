@@ -1,79 +1,81 @@
-# This list can be used to help clear up job titles
+# This list can be used to help clean up and normalise job/role titles e.g. in lists of committee members
 Governance_stop_list:
 # enter in lowercase
-  # Manner of appointment
-  - appointed
-  - by invitation
-  - co-opted
-  - elected
-  - ex officio
-  # Not available
-   - on administrative leave
-   - on annual leave
-   - on garden leave
-   - on gardening leave
-   - on leave
-   - on maternity leave
-   - on parental leave
-   - on paternity leave
-   - on compassionate leave
-   - on sabbatical
-   - on secondment
-   - on study leave
-   - on sick leave 
-  # Hours
-  - part-time
-  - full-time
-  # Unpaid
-  - honorary
-  - honorary
-  - pro bono
-  - unpaid
-  - voluntary
-  - volunteer
-  # Temporary/provisional
-  - acting
-  - ad interim
-  - alternate
-  - caretaker
-  - designate
-  - emerita # feminine
-  - emeritus # masculine
-  - for the time being
-  - interim
-  - locum
-  - locum tenens
-  - pro tempore
-  - provisional
-  - seconded
-  - stand-in
-  - substitute
-  - temporary
-  - visiting
-  # Status
-  - de facto
-  - de jure
-  - executive
-  - non-executive
-  - voting
-  - non-voting
- # Life cycle
-  - "-elect"
-  - current
-  - incumbent
-  - incoming
-  - in training
-  - former
-  - newly-appointed
-  - nominee
-  - outgoing
-  - past
-  - present
-  - previous
-  - retiring
+  manner_of_appointment:
+    - appointed
+    - by invitation
+    - co-opted
+    - elected
+    - ex officio
+    - invited
+  reason_not_available:
+    - on administrative leave
+    - on annual leave
+    - on garden leave
+    - on gardening leave
+    - on leave
+    - on maternity leave
+    - on parental leave
+    - on paternity leave
+    - on compassionate leave
+    - on sabbatical
+    - on secondment
+    - on study leave
+    - on sick leave 
+  full_or_part_time:
+    - part-time
+    - full-time
+  unpaid:
+    - honorary
+    - pro bono
+    - unpaid
+    - voluntary
+    - volunteer
+   temporary_or_provisional:
+    - acting
+    - ad interim
+    - alternate
+    - caretaker
+    - designate
+    - for the time being
+    - interim
+    - locum
+    - locum tenens
+    - on probation
+    - pro tempore
+    - provisional
+    - seconded
+    - stand-in
+    - substitute
+    - temporary
+    - visiting
+  legal_status:
+    - de facto
+    - de jure
+  executive_or_non-executive:
+    - executive
+    - non-executive
+  voting_or_nonvoting:
+    - non-voting
+    - voting
+  role_life_cycle:
+    - "-elect"
+    - current
+    - emerita # feminine
+    - emeritus # masculine
+    - incumbent
+    - incoming
+    - in training
+    - former
+    - newly-appointed
+    - nominee
+    - outgoing
+    - past
+    - present
+    - previous
+    - retired
+    - retiring
   # Other
   - founder
   - not seeking re-election
   - without portfolio
-   
-
