@@ -8,6 +8,8 @@ Governance_stop_list:
     - elected
     - ex officio
     - invited
+    - re-appointed
+    - re-elected
   reason_not_available:
     - on administrative leave
     - on annual leave
@@ -28,6 +30,7 @@ Governance_stop_list:
   unpaid:
     - honorary
     - pro bono
+    - pro-bono
     - unpaid
     - voluntary
     - volunteer
@@ -41,7 +44,10 @@ Governance_stop_list:
     - interim
     - locum
     - locum tenens
+    - maternity cover
     - on probation
+    - parental cover
+    - paternity cover
     - pro tempore
     - provisional
     - seconded
@@ -59,8 +65,8 @@ Governance_stop_list:
     - non-voting
     - voting
   role_life_cycle:
-    - "-elect"
     - current
+    - elect
     - emerita  # feminine
     - emeritus  # masculine
     - incumbent
@@ -76,6 +82,5 @@ Governance_stop_list:
     - retired
     - retiring
   other_role_modifiers:
-    - founder
     - not seeking re-election
     - without portfolio
