@@ -1,18 +1,20 @@
 # Sources include: https://www.eiopa.europa.eu/glossary_en
+# enter in lowercase
 Governance roles:
   Member of governing body:
-    - Board Member 
-    - Director
-    - Governor
-    - Trustee
-    - Executive Director
-    - Independent Non-Executive Director
-    - Non-executive Director
-    - Member of the Board
-    - Member of the Administrative Board
-    - Member of the Management Board
+    - board member 
+    - director
+    - governor
+    - trustee
+    - executive director
+    - independent non-executive director
+    - non-executive director
+    - member of the board
+    - member of the administrative board
+    - member of the management board
     - Member of the Supervisory Board
     - Member of the Governing Body
+    - Lead Independent Director
     - Senior Independent Director
   Chair:
     - Chair
@@ -49,5 +51,7 @@ Governance roles:
   Vice Chancellor:
     - Vice Chancellor
   Other:
-     - Auditor General
-     - Provost
+     - auditor general
+     - headteacher
+     - information commissioner
+     - provost
