@@ -16,6 +16,7 @@ Governance roles:
     - member of the governing body
     - lead independent director
     - senior independent director
+    - executive vice president
   Chair:
     - chair
     - chairperson
@@ -31,31 +32,34 @@ Governance roles:
     - vice chairman
     - vice chairwoman
   Board Committee Chairs:
-    - Chair of the Audit Committee
-    - Chair of the Remuneration Committee
+    - chair of the audit committee
+    - chair of the finance committee
+    - chair of the remuneration committee
   Chief Executive:
-    - Chief Executive
-    - Chief Executive Officer
-    - CEO
-    - Director General
-    - General Secretary
-    - Managing Director
-    - Managing Partner
-    - Secretary General
-  Chief Financial Officer:
-     - Chief Financial Officer 
-     - Chief Finance Officer
-     - CFO
-  President:
-    - President
-  Vice President:
-    - President
-  Chancellor:
-    - Chancellor
-  Vice Chancellor:
-    - Vice Chancellor
-  Other:
+     - chief executive
+     - chief executive officer
+     - ceo
+     - managing director
+     - managing partner
+     - secretary general
+     # Industry specific titles
      - auditor general
+     - chancellor
+     - director general
+     - general secretary
      - headteacher
      - information commissioner
      - provost
+     - vice Chancellor
+  chief Financial Officer:
+     - chief financial officer 
+     - chief finance officer
+     - cfo
+     - treasurer
+  chief operating office:
+    - chief operating officer
+  Other:
+    - president
+  
+
+  
