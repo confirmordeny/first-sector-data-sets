@@ -3,15 +3,7 @@
 governance roles:
   member of governing body:
     - director
-    - governor
     - trustee
-    # executive roles
-    - executive director
-    # non-executive roles
-    - independent non-executive director
-    - lead independent director
-    - non-executive director
-    - senior independent director
     # titles based on membership
     - board member 
     - member of the administrative board
@@ -19,6 +11,18 @@ governance roles:
     - member of the management board
     - member of the supervisory board
     - member of the governing body
+     # executive roles
+    - executive director
+    # non-executive roles
+    - independent non-executive director
+    - lead independent director
+    - non-executive director
+    - senior independent director
+    # education
+    - governor
+    - local authority governor
+    - parent governor
+    - staff governor
   chair:
     - chair
     - chairperson
@@ -44,7 +48,6 @@ governance roles:
      - ceo
      - managing director
      - managing partner
-     - president
      # Industry specific titles
      - auditor general
      - chancellor
@@ -54,7 +57,9 @@ governance roles:
      - information commissioner
      - provost
      - secretary general
-     - vice Chancellor
+     - vice chancellor
+  president:
+     - president
   chief financial officer:
      - chief financial officer 
      - chief finance officer
