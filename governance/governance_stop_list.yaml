@@ -1,9 +1,19 @@
 Governance_stop_list:
 # enter in lowercase
+  - "-elect"
   - acting
+  - ad interim
   - current
+  - de facto
+  - de juro
   - ex officio
   - for the time being
+  - interim
+  - newly-appointed
+  - outgoing
+  - present
   - pro tempore
+  - provisional
+  - temporary
  
 
