@@ -1,6 +1,7 @@
 Governance_stop_list:
 # enter in lowercase
   - acting
+  - current
   - ex officio
   - for the time being
   - pro_tempore
