@@ -2,12 +2,14 @@
 # enter in lowercase
 governance roles:
   member of governing body:
+    - councillor
     - director
     - trustee
     # titles based on membership
     - board member 
     - member of the administrative board
     - member of the board
+    - member of the council
     - member of the management board
     - member of the supervisory board
     - member of the governing body
