@@ -1,31 +1,68 @@
+# This list can be used to help clear up job titles
 Governance_stop_list:
 # enter in lowercase
-  - "-elect"
-  - acting
-  - ad interim
+  # Manner of appointment
   - appointed
-  - caretaker
+  - by invitation
   - co-opted
-  - current
-  - de facto
-  - de jure
-  - designate
   - elected
   - ex officio
-  - incoming
-  - full-time
-  - for the time being
-  - incumbent
-  - interim
-  - locum tenens
-  - newly-appointed
-  - on leave
+  # Not available
+   - on annual leave
+   - on garden leave
+   - on gardening leave
+   - on leave
+   - on maternity leave
+   - on parental leave
+   - on paternity leave
   - on secondment
-  - outgoing
+   - on sick leave 
+  # Hours
   - part-time
-  - present
+  - full-time
+  # unpaid
+  - honorary
+  - honorary
+  - unpaid
+  - voluntary
+  - volunteer
+  # Temporary/provisional
+  - acting
+  - ad interim
+  - alternate
+  - caretaker
+  - designate
+  - emerita # feminine
+  - emeritus # masculine
+  - for the time being
+  - interim
+  - locum
+  - locum tenens
   - pro tempore
   - provisional
+  - seconded
+  - substitute
   - temporary
+  - visiting
+  # Status
+  - de facto
+  - de jure
+  - executive
+  - non-executive
+ # Life cycle
+  - "-elect"
+  - current
+  - incumbent
+  - incoming
+  - in training
+  - former
+  - newly-appointed
+  - nominee
+  - outgoing
+  - present
+  - previous
+  - retiring
+  # Other
   - without portfolio
+   
 
