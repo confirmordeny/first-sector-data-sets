@@ -4,8 +4,8 @@ Started in late May 2025.
 
 ## List of data sets
 1. [Regnal names](/regnal_names)
-2. [Secretaries of state](/secretaries_of_state)
-3. [Waste Management](/waste_management)
+2. [Secretaries of State](/secretaries_of_state)
+3. [Waste management](/waste_management)
 
 ## Contributing
 
