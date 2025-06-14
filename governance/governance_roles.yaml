@@ -31,6 +31,11 @@ governance roles:
     - chairperson
     - chairman
     - chairwoman
+    - executive chair
+    - executive chairman
+    - executive chairperson
+    - executive chairman
+    - executive chairwoman
   vice Chair:
     - deputy chair
     - deputy chairperson
@@ -53,13 +58,19 @@ governance roles:
      - managing partner
      # Industry specific titles
      - auditor general
+     - chairperson of the commission # used by the African Union
      - chancellor
+     - commissioner-general
+     - commissioner general
+     - comptroller general
      - director general
      - general secretary
      - headteacher
+     - high commissioner
      - information commissioner
      - provost
      - secretary general
+     - secretary-general
      - vice chancellor
   president:
      - president
@@ -71,7 +82,3 @@ governance roles:
   chief operating office:
     - chief operating officer
     - coo
-
-  
-
-  
