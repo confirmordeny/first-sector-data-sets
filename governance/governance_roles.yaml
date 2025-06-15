@@ -7,7 +7,6 @@ governance roles:
     - councillor
     - director
     - trustee
-    - those charged with governance   # Used in International Standards on Auditing (e.g. ISA 260)
     # titles based on membership and function
     - board member 
     - member of the council
