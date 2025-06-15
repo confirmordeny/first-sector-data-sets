@@ -5,7 +5,7 @@ Started in June 2025.
 ## List of files
 * [list of prominent functions](list_of_prominent_functions.yaml)
 * [stop list](prominence_stop_list.yaml) — a list of words and phrases to remove in clean up (e.g. acting, full-time).
-* [symbols](prominence symbols.yaml) — supports normalisation of language, deals with abbreviations and variants
+* [symbols](prominence_symbols.yaml) — supports normalisation of language, deals with abbreviations and variants
 
 ## Contributing
 
