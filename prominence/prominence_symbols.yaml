@@ -44,6 +44,6 @@ replacements:
     board member: board member
     member of the board: board member
     on the board: board member
-  vice_mapping:
+  vice_deputy_mapping:
     deputy: vice
     vice: vice
