@@ -35,7 +35,9 @@ governance roles:
   board committee chairs:
     - chair of the audit committee
     - chair of the finance committee
+     - chair of the nomination committee
     - chair of the remuneration committee
+    - chair of the risk committee
   chief executive:
     # generic titles
     - chief executive officer
