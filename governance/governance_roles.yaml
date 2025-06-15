@@ -2,20 +2,16 @@
 # enter in lowercase
 governance roles:
   member of governing body:
+    # general
+    - council member
     - councillor
     - director
     - trustee
-    # titles based on membership
+    - those charged with governance   # Used in International Standards on Auditing (e.g. ISA 260)
+    # titles based on membership and function
     - board member 
-    - member of the administrative board
-    - member of the board of directors
-    - member of the board of trustees
     - member of the council
-    - member of the management board
-    - member of the management committee
-    - member of the supervisory board
-    - member of the governing body
-     # executive roles
+    # executive roles
     - executive director
     # non-executive roles
     - independent non-executive director
@@ -30,56 +26,31 @@ governance roles:
     - staff governor
   chair:
     - chair
-    - chairperson
-    - chairman
-    - chairwoman
+    - chair of the authority
     - chair of the council
-    - chairperson of the council
-    - chairman of the council
-    - chairwoman of the council
-    - chair of the management committee
-    - chairperson of the management committee
-    - chairman of the management committee
-    - chairwoman of the management committee
-    - chair of the management board
-    - chairperson of the management board
-    - chairman of the management board
-    - chairwoman of the management board
-    - executive chair
-    - executive chairman
-    - executive chairperson
-    - executive chairman
-    - executive chairwoman
+    - chair of the commission
     - pro-chancellor
-  vice Chair:
-    - deputy chair
-    - deputy chairperson
-    - deputy chairman
-    - deputy chairwoman
+  vice chair:
     - vice chair
-    - vice chairperson
-    - vice chairman
-    - vice chairwoman
   board committee chairs:
     - chair of the audit committee
     - chair of the finance committee
     - chair of the remuneration committee
   chief executive:
     # generic titles
-    - chief executive
     - chief executive officer
-    - ceo
     - managing director
     - managing partner
     # Industry specific titles
     - auditor general
-    - chairperson of the commission # used by the African Union
+    - chairperson of the commission  # used by the African Union
     - chancellor
     - chief constable
-    - commissioner-general
     - commissioner general
+    - commissioner-general
     - comptroller general
     - director general
+    - director-general
     - general secretary
     - headteacher
     - high commissioner
@@ -88,6 +59,7 @@ governance roles:
     - provost
     - rector
     - registrar general
+    - registrar-general
     - secretary general
     - secretary-general
     - secretary of state
@@ -95,12 +67,7 @@ governance roles:
   president:
     - president
   chief financial officer:
-    - chief financial officer 
-    - chief finance officer
-    - cfo
+    - chief financial officer
     - treasurer
   chief operating office:
     - chief operating officer
-    - coo
-  other:
-    - pro
