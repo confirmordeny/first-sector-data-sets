@@ -80,5 +80,7 @@ Governance_stop_list:
     - retired
     - retiring
   other_role_modifiers:
+    - job share
+    - joint
     - not seeking re-election
     - without portfolio
