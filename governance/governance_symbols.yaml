@@ -6,20 +6,25 @@ replacements:
     coo: chief operating officer
   c_suite_variants:  
     chief finance officer: chief financial officer
-  chair:
+  chair_mapping:
     chair: chair
     chairperson: chair
     chairman: chair
     chairwoman: chair
-  board:
-    administrative board
-    board of directors
-    board of management
-    board of trustees
-    full governing body
-    governing body
-    managing board
-    management committee
-    supervisory board
-    
-    
+  board_mapping:
+    administrative board: board
+    board: board
+    board of directors: board
+    board of management: board
+    board of trustees: board
+    full governing body: board
+    governing body: board
+    governing council: board
+    managing board: board
+    management board: board
+    management committee: board
+    supervisory board: board
+  member_mapping:
+    board member: board member
+    member of the board: board member
+    on the board: board member
