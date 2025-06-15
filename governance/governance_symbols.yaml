@@ -8,6 +8,7 @@ replacements:
     cio: chief information officer
     coo: chief operating officer
     cso: chief strategy officer
+    cto: chief technology officer 
   c_suite_variants:  
     chief finance officer: chief financial officer
   chair_mapping:
