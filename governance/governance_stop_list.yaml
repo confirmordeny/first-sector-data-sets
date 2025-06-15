@@ -58,9 +58,6 @@ Governance_stop_list:
   legal_status:
     - de facto
     - de jure
-  executive_or_non_executive:
-    - executive
-    - non-executive
   voting_or_non_voting:
     - non-voting
     - voting
