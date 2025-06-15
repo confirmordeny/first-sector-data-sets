@@ -21,6 +21,11 @@ replacements:
     chairperson: chair
     chairman: chair
     chairwoman: chair
+    executive chair: chair
+    executive chairman: chair
+    executive chairperson: chair
+    executive chairman: chair
+    executive chairwoman: chair
   board_mapping:
     administrative board: board
     board: board
