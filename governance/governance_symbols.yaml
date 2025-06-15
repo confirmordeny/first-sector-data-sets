@@ -1,6 +1,7 @@
 replacements:
 # enter in lowercase
   c_suite_abbreviations:
+    cco: chief commercial officer 
     ceo: chief executive officer
     cfo: chief financial officer
     cio: chief information officer
