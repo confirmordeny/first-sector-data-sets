@@ -3,7 +3,7 @@ Tools to help identify people holding prominent roles within organisations.
 Started in June 2025.
 
 ## List of files
-* [list of prominent functions](first-sector-data-sets/prominence/list_of_prominent_functions.yaml)
+* [list of prominent functions](list_of_prominent_functions.yaml)
 
 
 ## Contributing
