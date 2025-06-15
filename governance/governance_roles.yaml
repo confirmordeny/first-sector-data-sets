@@ -67,38 +67,39 @@ governance roles:
     - chair of the remuneration committee
   chief executive:
     # generic titles
-     - chief executive
-     - chief executive officer
-     - ceo
-     - managing director
-     - managing partner
-     # Industry specific titles
-     - auditor general
-     - chairperson of the commission # used by the African Union
-     - chancellor
-     - chief constable
-     - commissioner-general
-     - commissioner general
-     - comptroller general
-     - director general
-     - general secretary
-     - headteacher
-     - high commissioner
-     - information commissioner
-     - permanent secretary
-     - provost
-     - registrar general
-     - secretary general
-     - secretary-general
-     - secretary of state
-     - vice chancellor
+    - chief executive
+    - chief executive officer
+    - ceo
+    - managing director
+    - managing partner
+    # Industry specific titles
+    - auditor general
+    - chairperson of the commission # used by the African Union
+    - chancellor
+    - chief constable
+    - commissioner-general
+    - commissioner general
+    - comptroller general
+    - director general
+    - general secretary
+    - headteacher
+    - high commissioner
+    - information commissioner
+    - permanent secretary
+    - provost
+    - rector
+    - registrar general
+    - secretary general
+    - secretary-general
+    - secretary of state
+    - vice chancellor
   president:
-     - president
+    - president
   chief financial officer:
-     - chief financial officer 
-     - chief finance officer
-     - cfo
-     - treasurer
+    - chief financial officer 
+    - chief finance officer
+    - cfo
+    - treasurer
   chief operating office:
     - chief operating officer
     - coo
