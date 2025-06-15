@@ -48,3 +48,14 @@ replacements:
   vice_deputy_mapping:
     deputy: vice
     vice: vice
+ hyphen_variants:
+    commissioner general: commissioner general
+    commissioner-general: commissioner general
+    comptroller general: comptroller general
+    comptroller-general: comptroller general
+    director general: director general
+    director-general: director general
+    registrar general: registrar general
+    registrar-general: registrar general
+    secretary general: secretary general
+    secretary-general: secretary general
