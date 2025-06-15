@@ -9,8 +9,11 @@ governance roles:
     - board member 
     - member of the administrative board
     - member of the board
+    - member of the board of directors
+    - member of the board of trustees
     - member of the council
     - member of the management board
+    - member of the management committee
     - member of the supervisory board
     - member of the governing body
      # executive roles
@@ -31,6 +34,10 @@ governance roles:
     - chairperson
     - chairman
     - chairwoman
+    - chair of the council
+    - chairperson of the council
+    - chairman of the council
+    - chairwoman of the council
     - chair of the management committee
     - chairperson of the management committee
     - chairman of the management committee
@@ -44,6 +51,7 @@ governance roles:
     - executive chairperson
     - executive chairman
     - executive chairwoman
+    - pro-chancellor
   vice Chair:
     - deputy chair
     - deputy chairperson
@@ -78,6 +86,7 @@ governance roles:
      - information commissioner
      - permanent secretary
      - provost
+     - registrar general
      - secretary general
      - secretary-general
      - vice chancellor
@@ -91,3 +100,5 @@ governance roles:
   chief operating office:
     - chief operating officer
     - coo
+  other:
+    - pro
