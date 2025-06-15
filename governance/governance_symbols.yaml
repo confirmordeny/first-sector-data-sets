@@ -12,6 +12,7 @@ replacements:
     chairman: chair
     chairwoman: chair
   board:
+    administrative board
     board of directors
     board of management
     board of trustees
@@ -19,5 +20,6 @@ replacements:
     governing body
     managing board
     management committee
+    supervisory board
     
     
