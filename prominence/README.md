@@ -15,4 +15,8 @@ We welcome contributions.
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
-See [License](LICENSE.md) (Creative Commons Attribution Share Alike 4.0 International)
+See [License](LICENSE.md) (Creative Commons Attribution Share Alike 4.0 International).
+
+In some cases, it may be possible to make contributions available under other licences. Please get in touch if this is something 
+you would like to explore.
+
