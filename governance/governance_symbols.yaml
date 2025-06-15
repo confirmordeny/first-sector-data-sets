@@ -2,12 +2,15 @@ replacements:
 # enter in lowercase
   c_suite_abbreviations:
     # not all individuals with c-suite titles are necessarily on the governing body
-    cco: chief commercial officer 
+    cco: chief commercial officer
+    cdo: chief data officer
     ceo: chief executive officer
     cfo: chief financial officer
     cia: chief internal auditor
     cio: chief information officer
+    cmo: chief marketing officer
     coo: chief operating officer
+    cro: chief risk officer
     cso: chief strategy officer
     cto: chief technology officer 
   c_suite_variants:  
