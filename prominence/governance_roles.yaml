@@ -1,75 +1,90 @@
 # Sources include: https://www.eiopa.europa.eu/glossary_en
 # enter in lowercase
-governance roles:
-  member of governing body:
-    # general
-    - council member
-    - councillor
-    - director
-    - trustee
-    # titles based on membership and function
-    - board member 
-    - member of the council
-    # executive roles
-    - executive director
-    # non-executive roles
-    - independent non-executive director
-    - lead independent director
-    - non-executive director
-    - senior independent director
-    # education
-    - foundation governor
-    - governor
-    - local authority governor
-    - parent governor
-    - staff governor
-  chair:
-    - chair
-    - chair of the authority
-    - chair of the council
-    - chair of the commission
-    - pro-chancellor
-  vice chair:
-    - vice chair
-  board committee chairs:
-    - chair of the audit committee
-    - chair of the finance committee
-    - chair of the nomination committee
-    - chair of the remuneration committee
-    - chair of the risk committee
-  chief executive:
-    # generic titles
-    - chief executive officer
-    - managing director
-    - managing partner
-    # industry specific titles
-    - auditor general
-    - chairperson of the commission  # used by the African Union
-    - chancellor
-    - chief constable
-    - commissioner general
-    - commissioner-general
-    - comptroller general
-     - comptroller-general
-    - director general
-    - director-general
-    - general secretary
-    - headteacher
-    - high commissioner
-    - information commissioner
-    - permanent secretary
-    - provost
-    - rector
-    - registrar general
-    - registrar-general
-    - secretary general
-    - secretary-general
-    - secretary of state
-    - vice chancellor
-  president:
-    - president
-  chief financial officer:
-    - chief financial officer
-    - treasurer
-  chief operating office:
-    - chief operating officer
+prominent functions:
+  governance roles:
+    member of governing body:
+      # general
+      - council member
+      - councillor
+      - director
+      - trustee
+      # titles based on membership and function
+      - board member 
+      - member of the council
+      # executive roles
+      - executive director
+      # non-executive roles
+      - independent non-executive director
+      - lead independent director
+      - non-executive director
+      - senior independent director
+    chair:
+      - chair
+      - chair of the authority
+      - chair of the council
+      - chair of the commission
+      - lord chamberlain #  UK Royal Household
+      - pro-chancellor
+    vice chair:
+      - vice chair
+    board committee chairs:
+      - chair of the audit committee
+      - chair of the finance committee
+      - chair of the nomination committee
+      - chair of the remuneration committee
+      - chair of the risk committee
+    chief executive:
+      # generic titles
+      - chief executive officer
+      - managing director
+      - managing partner
+      # industry specific titles
+      - auditor general
+      - chairperson of the commission  # used by the African Union
+      - chief constable
+      - commissioner general
+      - commissioner-general
+      - comptroller general
+      - comptroller-general
+      - director general
+      - director-general
+      - general secretary
+      - high commissioner
+      - information commissioner
+      - keeper of the privy purse   # UK Royal Household 
+      - permanent secretary
+      - registrar general
+      - registrar-general
+      - secretary general
+      - secretary-general
+      - vice chancellor
+    c_suite_other_than_ceo:  # CEO is listed above
+      - chief corporate affairs officer
+      - chief commercial officer
+      - chief compliance officer
+      - chief data officer
+      - chief executive officer
+      - chief financial officer
+      - chief internal auditor
+      - chief information officer
+      - chief investment officer
+      - chief legal officer
+      - chief marketing officer
+      - chief procurement officer
+      - chief of staff
+      - chief operating officer
+      - chief risk officer
+      - chief strategy officer
+      - chief technology officer
+      - general counsel
+    other:
+      - chancellor
+      - governor
+      - headteacher
+      - mayor
+      - president
+      - provost
+      - rector
+      - secretary of state
+      - treasurer
+ 
