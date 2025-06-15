@@ -8,7 +8,7 @@ prominent functions:
       - councillor
       - director
       - trustee
-      # titles based on membership and function
+      # titles based on membership
       - board member 
       - member of the council
       # executive roles
@@ -75,6 +75,7 @@ prominent functions:
       - chief of staff
       - chief operating officer
       - chief risk officer
+      - chief scientific officer
       - chief strategy officer
       - chief technology officer
       - chief transformation officer
@@ -84,8 +85,8 @@ prominent functions:
       - governor
       - mayor
       - president
+      - proctor
       - provost
       - rector
       - secretary of state
       - treasurer
- 
