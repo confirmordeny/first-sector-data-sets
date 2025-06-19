@@ -3,7 +3,7 @@ Data sets relating to the public sector.
 Started in late May 2025.
 
 ## List of projects
-1. [Prominence](/prominence)
+1. [Prominence](/prominence) — resources to help identify people entrusted with prominent functions based on role/job title
 
 ## List of data sets 
 1. [Regnal names](/regnal_names)
