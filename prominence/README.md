@@ -15,7 +15,7 @@ We welcome contributions.
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
-Copyright Confirmordeny 2025 released under a [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md)
+Copyright © Confirmordeny 2025 released under a [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md)
 
 In some cases, it may be possible to make contributions available under other licences. Please get in touch if this is something 
 you would like to explore.
