@@ -50,7 +50,9 @@ replacements:
   vice_deputy_mapping:
     deputy: vice
     vice: vice
- hyphen_variants:
+  committee_mapping:
+    nominating committee: nominations committee
+  hyphen_variants:
     commissioner general: commissioner general
     commissioner-general: commissioner general
     comptroller general: comptroller general
