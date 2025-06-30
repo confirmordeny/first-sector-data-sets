@@ -7,6 +7,10 @@ Started in June 2025.
 * [stop list](prominence_stop_list.yaml) — a list of words and phrases to remove in clean up (e.g. acting, full-time).
 * [symbols](prominence_symbols.yaml) — supports normalisation of language, deals with abbreviations and variants
 
+## Limitations
+* Only includes English terms at present.
+* There are inherent difficulties in identofying senior role titles. Titles such as "Head of" could be very senior in one organisation but more junior in another.
+
 ## Contributing
 
 We welcome contributions.
