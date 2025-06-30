@@ -3,7 +3,7 @@ Tools to help identify people holding prominent roles within organisations.
 Started in June 2025.
 
 ## List of files
-* [list of prominent functions](list_of_prominent_functions.yaml) — a list of senior job/role titles such as Director and Trustee.
+* [list of prominent functions](list_of_prominent_functions.yaml) — a list of senior job/role titles such as Director, Trustee, Chief Financial Officer. Also, includes some industry specific terms such as Chief Constable.
 * [stop list](prominence_stop_list.yaml) — a list of words and phrases to remove in clean up (e.g. acting, full-time).
 * [symbols](prominence_symbols.yaml) — supports normalisation of language, deals with abbreviations and variants
 
