@@ -1,5 +1,5 @@
 # Prominence
-Tools to help identify people holding prominent roles within organisations.
+Set of tools to help identify people holding prominent roles within organisations.
 Started in June 2025.
 
 ## List of files
@@ -10,6 +10,7 @@ Started in June 2025.
 ## Limitations
 * Only includes English terms at present.
 * There are inherent difficulties in identofying senior role titles. Titles such as "Head of" could be very senior in one organisation but more junior in another.
+* At present, the tools are limited to YAML files containing lists and there is no code to check role 
 
 ## Contributing
 
