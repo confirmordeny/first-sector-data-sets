@@ -29,7 +29,7 @@ jobs:
           import yaml
 
           input_file = 'secretaries_of_state/other_names.yaml'
-          output_file = 'secretaries_of_state/other_names.md'
+          output_file = 'secretaries_of_state/list_of_names_for_secretaries_of_state.md'
           all_names = []
 
           with open(input_file, 'r') as f:
@@ -43,7 +43,7 @@ jobs:
           all_names.sort()
 
           md = f"\\n\\n"
-          md += "# Alternative Names for Secretaries of State\\n\\n"
+          md += "# Names for Secretaries of State\\n\\n"
           # This is the new line you requested
           md += "This can be used to help identify companies owned by UK Central Government.\\n\\n"
           for name in all_names:
