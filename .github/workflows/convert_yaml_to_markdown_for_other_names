@@ -3,7 +3,7 @@ name: Convert Secretaries of State YAML to Markdown
 on:
   push:
     paths:
-      - 'first-sector-data-sets/secretaries_of_state/other_names.yaml''
+      - 'first-sector-data-sets/secretaries_of_state/other_names.yaml'
 
 permissions:
   contents: write
@@ -29,7 +29,7 @@ jobs:
           import yaml
 
           all_names = []
-          with open('secretaries_of_state/other_names.yaml', 'r') as f:
+          with open('first-sector-data-sets/secretaries_of_state/other_names.yaml', 'r') as f:
               data = yaml.safe_load(f)
 
           # Extract all list items (values) from the YAML data
