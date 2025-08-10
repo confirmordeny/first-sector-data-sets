@@ -71,3 +71,8 @@ replacements:
     secretary-general: secretary general
     valuer general: valuer general
     valuer-general: valuer general
+  fr_terms:
+    commissaire général: commissioner general
+    directeur général: director general
+    inspecteur général: inspector general 
+    receveur général: receiver general
