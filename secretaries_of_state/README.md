@@ -12,4 +12,4 @@ We welcome contributions.
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
-Refer to the main [Read me file for the Repo](https://github.com/confirmordeny/first-sector-data-sets/blob/main/README.md)
+Refer to the main [Read me file for the Repo](https://github.com/confirmordeny/first-sector-data-sets/blob/main/README.md).
