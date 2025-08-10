@@ -96,7 +96,7 @@ Secretary_of_State_for_Foreign_and_Commonwealth_Affairs:
 Secretary_of_State_for_Foreign,_Commonwealth_and_Development_Affairs:
   - Secretary of State for Foreign, Commonwealth and Development Affairs
   - United Kingdom Of Great Britain And Northern Ireland Acting Through The Secretary Of State For Foreign, Commonwealth And Development Affairs
-  - Secretary Of State For Foreign, Commonwealth & Development # with ampersand (&)
+  - Secretary Of State For Foreign, Commonwealth & Development # with ampersand (&) but missing "Affairs"
 Secretary_of_State_for_Health:
   - Secretary of State for Health
   - Secretary Of State For Dept Of Health
