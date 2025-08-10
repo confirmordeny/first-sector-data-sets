@@ -12,7 +12,4 @@ We welcome contributions.
 See [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
-Copyright © Confirmordeny 2025 released under a [Creative Commons Attribution Share Alike 4.0 International License](/LICENSE.md)
-
-In some cases, it may be possible to make contributions available under other licences. Please get in touch if this is something 
-you would like to explore.
+Refer to the main pRead me file for the Repo](https://github.com/confirmordeny/first-sector-data-sets/blob/main/README.md)
