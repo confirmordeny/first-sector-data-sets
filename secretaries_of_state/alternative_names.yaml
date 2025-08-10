@@ -11,6 +11,7 @@ Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy:
   - Secretary Of State For Business Energy And Industrial Strategy # missing comma
   - Secretary Of State For Business, Energy And Industrial Enterprise # mistake in final word(?)
   - Secretary Of State For The  Business, Energy And Industrial Strategy # extra "the"
+  - Secretary Of State For Business, Energy & Industrial Strategy # with ampersand (&)
 Secretary_of_State_for_Business,_Enterprise_and_Regulatory_Reform:
 Secretary_of_State_for_Business,_Innovation_and_Skills:
   - Secretary Of State For Business Innovation And Skills # missing comma
