@@ -1,0 +1,105 @@
+
+
+# Names for Secretaries of State
+
+This can be used to help identify companies owned by UK Central Government.
+
+- First Secretary of State
+- Her Britannic Majesty's Secretary Of State (Acting Through The International Development)
+- Her Britannic Majesty's Secretary Of State For International Development
+- Hm The Secretary Of State For Energy Security And Net Zero
+- Secretary Of State For Beis
+- Secretary Of State For Business Energy And Industrial Strategy
+- Secretary Of State For Business Innovation And Skills
+- Secretary Of State For Business, Energy & Industrial Strategy
+- Secretary Of State For Business, Energy And Industrial Enterprise
+- Secretary Of State For Communities And Local Governmemt
+- Secretary Of State For Culture, Media & Sport
+- Secretary Of State For Defence Acting In The Execution Of The Greenwich Hospital Acts 1865-1996 And The Defence (Transfer Of Functions) Act 1964
+- Secretary Of State For Defence Of Great Britain And Northern Ireland
+- Secretary Of State For Defence Of The United Kingdom Of Great Britain And Northern Ireland
+- Secretary Of State For Defence Of The United Kingdom Of Great Britain And Northern Ireland, As Represented By The Defence Electronics And Components Agency
+- Secretary Of State For Department Of Energy Security And Net Zero
+- Secretary Of State For Dept Of Health
+- Secretary Of State For Desnz
+- Secretary Of State For Dsit
+- Secretary Of State For Energy Security & Net Zero
+- Secretary Of State For Energy, Security And Net Zero
+- Secretary Of State For Environment, Food & Rural Affairs
+- Secretary Of State For Foreign, Commonwealth & Development
+- Secretary Of State For Health And Social Care.
+- Secretary Of State For Housing, Communities & Local Government
+- Secretary Of State For The Business And Trade
+- Secretary Of State For The Business, Energy And Industrial Strategy
+- Secretary Of State For The Department Of Business And Trade
+- Secretary Of State For The Department Of Energy Security And Net Zero
+- Secretary Of State For The Energy Security And Net Zero
+- Secretary of State
+- Secretary of State for Air
+- Secretary of State for Burma
+- Secretary of State for Business and Trade
+- Secretary of State for Business, Energy and Industrial Strategy
+- Secretary of State for Business, Enterprise and Regulatory Reform
+- Secretary of State for Business, Innovation and Skills
+- Secretary of State for Children, Schools and Families
+- Secretary of State for Commonwealth Affairs
+- Secretary of State for Commonwealth Relations
+- Secretary of State for Communities and Local Government
+- Secretary of State for Constitutional Affairs
+- Secretary of State for Culture, Media and Sport
+- Secretary of State for Culture, Olympics, Media and Sport
+- Secretary of State for Defence
+- Secretary of State for Digital, Culture, Media and Sport
+- Secretary of State for Dominion Affairs
+- Secretary of State for Economic Affairs
+- Secretary of State for Education
+- Secretary of State for Education and Employment
+- Secretary of State for Education and Science
+- Secretary of State for Education and Skills
+- Secretary of State for Employment
+- Secretary of State for Employment and Productivity
+- Secretary of State for Energy
+- Secretary of State for Energy Security and Net Zero
+- Secretary of State for Energy and Climate Change
+- Secretary of State for Environment, Food and Rural Affairs
+- Secretary of State for Exiting the European Union
+- Secretary of State for Foreign Affairs
+- Secretary of State for Foreign and Commonwealth Affairs
+- Secretary of State for Foreign, Commonwealth and Development Affairs
+- Secretary of State for Health
+- Secretary of State for Health and Social Care
+- Secretary of State for Housing, Communities and Local Government
+- Secretary of State for India
+- Secretary of State for India and Burma
+- Secretary of State for Industry
+- Secretary of State for Industry, Trade and Regional Development
+- Secretary of State for Innovation, Universities and Skills
+- Secretary of State for International Development
+- Secretary of State for International Trade
+- Secretary of State for Justice
+- Secretary of State for Levelling Up, Housing and Communities
+- Secretary of State for Local Government and Regional Planning
+- Secretary of State for National Heritage
+- Secretary of State for Northern Ireland
+- Secretary of State for Prices and Consumer Protection
+- Secretary of State for Science, Innovation and Technology
+- Secretary of State for Scotland
+- Secretary of State for Social Security
+- Secretary of State for Social Services
+- Secretary of State for Trade
+- Secretary of State for Trade and Industry
+- Secretary of State for Transport
+- Secretary of State for Transport, Local Government and the Regions
+- Secretary of State for Universities, Innovation and Skills
+- Secretary of State for Wales
+- Secretary of State for War
+- Secretary of State for War and the Colonies
+- Secretary of State for Work and Pensions
+- Secretary of State for the Colonies
+- Secretary of State for the Environment
+- Secretary of State for the Environment, Transport and the Regions
+- Secretary of State for the Home Department
+- Secretary of State for the Northern Department
+- Secretary of State for the Southern Department
+- Secretary of State in the Cabinet Office
+- United Kingdom Of Great Britain And Northern Ireland Acting Through The Secretary Of State For Foreign, Commonwealth And Development Affairs
