@@ -3,7 +3,7 @@ name: Convert Secretaries of State YAML to Markdown
 on:
   push:
     paths:
-      - 'first-sector-data-sets/secretaries_of_state/other_names.yaml'
+      - 'secretaries_of_state/other_names.yaml'
 
 permissions:
   contents: write
@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -28,27 +28,26 @@ jobs:
           python3 <<EOF
           import yaml
 
+          input_file = 'secretaries_of_state/other_names.yaml'
+          output_file = 'secretaries_of_state/other_names.md'
           all_names = []
-          with open('first-sector-data-sets/secretaries_of_state/other_names.yaml', 'r') as f:
+
+          with open(input_file, 'r') as f:
               data = yaml.safe_load(f)
 
-          # Extract all list items (values) from the YAML data
           if data:
               for name_list in data.values():
                   if isinstance(name_list, list):
                       all_names.extend(str(name).strip() for name in name_list)
 
-          # Sort the final list alphabetically
           all_names.sort()
 
-          # Create the Markdown content with an updated warning
-          md = "\\n\\n"
+          md = f"\\n\\n"
           md += "# Alternative Names for Secretaries of State\\n\\n"
           for name in all_names:
               md += f"- {name}\\n"
-
-          # Write to the Markdown file
-          with open('first-sector-data-sets/secretaries_of_state/other_names.md', 'w') as f:
+          
+          with open(output_file, 'w') as f:
               f.write(md)
           EOF
 
@@ -57,7 +56,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
-          git add first-sector-data-sets/secretaries_of_state/other_names.md
+          git add secretaries_of_state/other_names.md
           git status
           git commit -m "docs: update 'other names' list from YAML" || echo "No changes to commit"
           git push origin HEAD
