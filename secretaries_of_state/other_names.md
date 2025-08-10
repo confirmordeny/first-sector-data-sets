@@ -2,6 +2,8 @@
 
 # Alternative Names for Secretaries of State
 
+This can be used to help identify companies owned by UK Central Government.
+
 - First Secretary of State
 - Her Britannic Majesty's Secretary Of State (Acting Through The International Development)
 - Her Britannic Majesty's Secretary Of State For International Development
