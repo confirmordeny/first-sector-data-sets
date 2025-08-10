@@ -1,1 +1,97 @@
-
+First_Secretary_of_State:
+Secretary_of_State:
+Secretary_of_State_for_Air:
+Secretary_of_State_for_Burma:
+Secretary_of_State_for_Business_and_Trade:
+  - Secretary Of State For  Business And Trade
+  - Secretary Of State For The  Business And Trade
+  - Secretary Of State For The Department Of Business And Trade
+Secretary_of_State_for_Business,_Energy_and_Industrial_Strategy:
+  - Secretary Of State For Beis
+  - Secretary Of State For Business Energy And Industrial Strategy # missing comma
+  - Secretary Of State For Business, Energy And Industrial Enterprise # mistake in final word(?)
+  - Secretary Of State For The  Business, Energy And Industrial Strategy # extra "the"
+Secretary_of_State_for_Business,_Enterprise_and_Regulatory_Reform:
+Secretary_of_State_for_Business,_Innovation_and_Skills:
+  - Secretary Of State For Business Innovation And Skills # missing comma
+Secretary_of_State_in_the_Cabinet_Office:
+Secretary_of_State_for_Children,_Schools_and_Families:
+Secretary_of_State_for_the_Colonies:
+Secretary_of_State_for_Commonwealth_Affairs:
+Secretary_of_State_for_Commonwealth_Relations:
+Secretary_of_State_for_Communities_and_Local_Government:
+  - Secretary Of State For Communities And Local Governmemt # typo in Companies House filings
+Secretary_of_State_for_Constitutional_Affairs:
+Secretary_of_State_for_Culture,_Olympics,_Media_and_Sport:
+Secretary_of_State_for_Culture,_Media_and_Sport:
+  - Secretary Of State For Culture, Media & Sport
+Secretary_of_State_for_Defence:
+  - Secretary Of State For Defence Acting In The Execution Of The Greenwich Hospital Acts 1865-1996 And The Defence (Transfer Of Functions) Act 1964
+  - Secretary Of State For Defence Of Great Britain And Northern Ireland
+  - Secretary Of State For Defence Of The United Kingdom Of Great Britain And Northern Ireland
+Secretary_of_State_for_Digital,_Culture,_Media_and_Sport:
+Secretary_of_State_for_Dominion_Affairs:
+Secretary_of_State_for_Economic_Affairs:
+Secretary_of_State_for_Education:
+Secretary_of_State_for_Education_and_Employment:
+Secretary_of_State_for_Education_and_Science:
+Secretary_of_State_for_Education_and_Skills:
+Secretary_of_State_for_Employment:
+Secretary_of_State_for_Employment_and_Productivity:
+Secretary_of_State_for_Energy_and_Climate_Change:
+Secretary_of_State_for_Energy:
+Secretary_of_State_for_Energy_Security_and_Net_Zero:
+  - Hm The Secretary Of State For Energy Security And Net Zero
+  - Secretary Of State For  Energy Security And Net Zero
+  - Secretary Of State For Department Of Energy Security And Net Zero
+  - Secretary Of State For Energy Security & Net Zero
+  - Secretary Of State For Energy, Security And Net Zero
+  - Secretary Of State For The  Energy Security And Net Zero
+Secretary_of_State_for_the_Environment:
+Secretary_of_State_for_Environment,_Food_and_Rural_Affairs:
+  - Secretary Of State For Environment, Food & Rural Affairs
+Secretary_of_State_for_the_Environment,_Transport_and_the_Regions:
+Secretary_of_State_for_Exiting_the_European_Union:
+Secretary_of_State_for_Foreign_and_Commonwealth_Affairs:
+Secretary_of_State_for_Foreign,_Commonwealth_and_Development_Affairs:
+  - United Kingdom Of Great Britain And Northern Ireland Acting Through The Secretary Of State For Foreign, Commonwealth And Development Affairs
+Secretary_of_State_for_Health:
+ - Secretary Of State For Dept Of Health
+Secretary_of_State_for_Health_and_Social_Care:
+ - Secretary Of State For Health And Social Care. # with a full stop
+Secretary_of_State_for_the_Home_Department:
+Secretary_of_State_for_Housing,_Communities_and_Local_Government:
+  - Secretary Of State For Housing, Communities & Local Government # with ampersand (&)
+Secretary_of_State_for_India:
+Secretary_of_State_for_India_and_Burma:
+Secretary_of_State_for_Industry:
+Secretary_of_State_for_Industry,_Trade_and_Regional_Development:
+Secretary_of_State_for_Innovation,_Universities_and_Skills:
+Secretary_of_State_for_International_Trade:
+Secretary_of_State_for_International_Development:
+  - Her Britannic Majesty's Secretary Of State (Acting Through The  International Development)
+  - Her Britannic Majesty's Secretary Of State For International Development
+Secretary_of_State_for_Foreign_Affairs:
+Secretary_of_State_for_Justice:
+Secretary_of_State_for_Levelling_Up,_Housing_and_Communities:
+Secretary_of_State_for_Local_Government_and_Regional_Planning:
+Secretary_of_State_for_National_Heritage:
+Secretary_of_State_for_the_Northern_Department:
+Secretary_of_State_for_Northern_Ireland:
+Secretary_of_State_for_Prices_and_Consumer_Protection:
+Secretary_of_State_for_Science,_Innovation_and_Technology:
+  - Secretary Of State For  Science, Innovation And Technology
+  - Secretary Of State For Dsit
+Secretary_of_State_for_Scotland:
+Secretary_of_State_for_Social_Security:
+Secretary_of_State_for_Social_Services:
+Secretary_of_State_for_the_Southern_Department:
+Secretary_of_State_for_Trade:
+Secretary_of_State_for_Trade_and_Industry:
+Secretary_of_State_for_Transport:
+Secretary_of_State_for_Transport,_Local_Government_and_the_Regions:
+Secretary_of_State_for_Universities,_Innovation_and_Skills:
+Secretary_of_State_for_Wales:
+Secretary_of_State_for_War:
+Secretary_of_State_for_War_and_the_Colonies:
+Secretary_of_State_for_Work_and_Pensions:
