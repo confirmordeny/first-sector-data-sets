@@ -3,7 +3,7 @@ name: Convert Secretaries of State YAML to Markdown
 on:
   push:
     paths:
-      - 'secretaries_of_state/other_names.yaml'
+      - 'first-sector-data-sets/secretaries_of_state/other_names.yaml''
 
 permissions:
   contents: write
