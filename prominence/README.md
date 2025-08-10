@@ -8,7 +8,7 @@ Started in June 2025.
 * [symbols](prominence_symbols.yaml) — supports normalisation of language, deals with abbreviations and variants
 
 ## Limitations
-* Only includes English terms at present.
+* Only includes English terms and a very small number of French terms at present.
 * There are inherent difficulties in identofying senior role titles. Titles such as "Head of" could be very senior in one organisation but more junior in another.
 * At present, the tools are limited to YAML files containing lists and there is no code to check role 
 
