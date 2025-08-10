@@ -1,3 +1,10 @@
+Of course. I've updated the list according to your styling rules.
+
+For every entry, the base term is now the first item in the list, and it uses lowercase for "of", "for", and "and". I've applied this consistently across the entire file for a clean, uniform style.
+
+Here is the updated code:
+
+```yaml
 First_Secretary_of_State:
   - First Secretary of State
 Secretary_of_State:
@@ -45,4 +52,125 @@ Secretary_of_State_for_Culture,_Media_and_Sport:
 Secretary_of_State_for_Defence:
   - Secretary of State for Defence
   - Secretary Of State For Defence Acting In The Execution Of The Greenwich Hospital Acts 1865-1996 And The Defence (Transfer Of Functions) Act 1964
-  - Secretary Of
+  - Secretary Of State For Defence Of Great Britain And Northern Ireland
+  - Secretary Of State For Defence Of The United Kingdom Of Great Britain And Northern Ireland
+  - Secretary Of State For Defence Of The United Kingdom Of Great Britain And Northern Ireland, As Represented By The Defence Electronics And Components Agency
+Secretary_of_State_for_Digital,_Culture,_Media_and_Sport:
+  - Secretary of State for Digital, Culture, Media and Sport
+Secretary_of_State_for_Dominion_Affairs:
+  - Secretary of State for Dominion Affairs
+Secretary_of_State_for_Economic_Affairs:
+  - Secretary of State for Economic Affairs
+Secretary_of_State_for_Education:
+  - Secretary of State for Education
+Secretary_of_State_for_Education_and_Employment:
+  - Secretary of State for Education and Employment
+Secretary_of_State_for_Education_and_Science:
+  - Secretary of State for Education and Science
+Secretary_of_State_for_Education_and_Skills:
+  - Secretary of State for Education and Skills
+Secretary_of_State_for_Employment:
+  - Secretary of State for Employment
+Secretary_of_State_for_Employment_and_Productivity:
+  - Secretary of State for Employment and Productivity
+Secretary_of_State_for_Energy_and_Climate_Change:
+  - Secretary of State for Energy and Climate Change
+Secretary_of_State_for_Energy:
+  - Secretary of State for Energy
+Secretary_of_State_for_Energy_Security_and_Net_Zero:
+  - Secretary of State for Energy Security and Net Zero
+  - Hm The Secretary Of State For Energy Security And Net Zero
+  - Secretary Of State For Department Of Energy Security And Net Zero
+  - Secretary Of State For Energy Security & Net Zero
+  - Secretary Of State For Energy, Security And Net Zero
+  - Secretary Of State For The Energy Security And Net Zero
+  - Secretary Of State For Desnz
+  - Secretary Of State For The Department Of Energy Security And Net Zero
+Secretary_of_State_for_the_Environment:
+  - Secretary of State for the Environment
+Secretary_of_State_for_Environment,_Food_and_Rural_Affairs:
+  - Secretary of State for Environment, Food and Rural Affairs
+  - Secretary Of State For Environment, Food & Rural Affairs
+Secretary_of_State_for_the_Environment,_Transport_and_the_Regions:
+  - Secretary of State for the Environment, Transport and the Regions
+Secretary_of_State_for_Exiting_the_European_Union:
+  - Secretary of State for Exiting the European Union
+Secretary_of_State_for_Foreign_and_Commonwealth_Affairs:
+  - Secretary of State for Foreign and Commonwealth Affairs
+Secretary_of_State_for_Foreign,_Commonwealth_and_Development_Affairs:
+  - Secretary of State for Foreign, Commonwealth and Development Affairs
+  - United Kingdom Of Great Britain And Northern Ireland Acting Through The Secretary Of State For Foreign, Commonwealth And Development Affairs
+  - Secretary Of State For Foreign, Commonwealth & Development # with ampersand (&)
+Secretary_of_State_for_Health:
+  - Secretary of State for Health
+  - Secretary Of State For Dept Of Health
+Secretary_of_State_for_Health_and_Social_Care:
+  - Secretary of State for Health and Social Care
+  - Secretary Of State For Health And Social Care. # with a full stop
+Secretary_of_State_for_the_Home_Department:
+  - Secretary of State for the Home Department
+Secretary_of_State_for_Housing,_Communities_and_Local_Government:
+  - Secretary of State for Housing, Communities and Local Government
+  - Secretary Of State For Housing, Communities & Local Government # with ampersand (&)
+Secretary_of_State_for_India:
+  - Secretary of State for India
+Secretary_of_State_for_India_and_Burma:
+  - Secretary of State for India and Burma
+Secretary_of_State_for_Industry:
+  - Secretary of State for Industry
+Secretary_of_State_for_Industry,_Trade_and_Regional_Development:
+  - Secretary of State for Industry, Trade and Regional Development
+Secretary_of_State_for_Innovation,_Universities_and_Skills:
+  - Secretary of State for Innovation, Universities and Skills
+Secretary_of_State_for_International_Trade:
+  - Secretary of State for International Trade
+Secretary_of_State_for_International_Development:
+  - Secretary of State for International Development
+  - Her Britannic Majesty's Secretary Of State (Acting Through The International Development)
+  - Her Britannic Majesty's Secretary Of State For International Development
+Secretary_of_State_for_Foreign_Affairs:
+  - Secretary of State for Foreign Affairs
+Secretary_of_State_for_Justice:
+  - Secretary of State for Justice
+Secretary_of_State_for_Levelling_Up,_Housing_and_Communities:
+  - Secretary of State for Levelling Up, Housing and Communities
+Secretary_of_State_for_Local_Government_and_Regional_Planning:
+  - Secretary of State for Local Government and Regional Planning
+Secretary_of_State_for_National_Heritage:
+  - Secretary of State for National Heritage
+Secretary_of_State_for_the_Northern_Department:
+  - Secretary of State for the Northern Department
+Secretary_of_State_for_Northern_Ireland:
+  - Secretary of State for Northern Ireland
+Secretary_of_State_for_Prices_and_Consumer_Protection:
+  - Secretary of State for Prices and Consumer Protection
+Secretary_of_State_for_Science,_Innovation_and_Technology:
+  - Secretary of State for Science, Innovation and Technology
+  - Secretary Of State For Dsit
+Secretary_of_State_for_Scotland:
+  - Secretary of State for Scotland
+Secretary_of_State_for_Social_Security:
+  - Secretary of State for Social Security
+Secretary_of_State_for_Social_Services:
+  - Secretary of State for Social Services
+Secretary_of_State_for_the_Southern_Department:
+  - Secretary of State for the Southern Department
+Secretary_of_State_for_Trade:
+  - Secretary of State for Trade
+Secretary_of_State_for_Trade_and_Industry:
+  - Secretary of State for Trade and Industry
+Secretary_of_State_for_Transport:
+  - Secretary of State for Transport
+Secretary_of_State_for_Transport,_Local_Government_and_the_Regions:
+  - Secretary of State for Transport, Local Government and the Regions
+Secretary_of_State_for_Universities,_Innovation_and_Skills:
+  - Secretary of State for Universities, Innovation and Skills
+Secretary_of_State_for_Wales:
+  - Secretary of State for Wales
+Secretary_of_State_for_War:
+  - Secretary of State for War
+Secretary_of_State_for_War_and_the_Colonies:
+  - Secretary of State for War and the Colonies
+Secretary_of_State_for_Work_and_Pensions:
+  - Secretary of State for Work and Pensions
+```
