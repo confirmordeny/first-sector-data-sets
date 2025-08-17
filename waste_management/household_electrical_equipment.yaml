@@ -108,6 +108,15 @@ household electrical equipment:
       - musical instruments
       - other products or equipment for the purpose of recording or reproducing sound or images, including signals or other technologies for the distribution of sound and image than by telecommunications
       - photovoltaic panels
+    examples:
+     - radio
+     - television
+     - television set
+     - TV
+     - telly
+     - video camera
+     - camcorder
+     - audio amplifier
   lighting equipment:
     specification elements:
       - luminaires for fluorescent lamps with the exception of luminaires in households
@@ -134,6 +143,8 @@ household electrical equipment:
       - computers for biking, diving, running, rowing, etc.
       - sports equipment with electric or electronic components
       - coin slot machines
+    examples:
+      - electric train set
   medical devices (with the exception of all implanted and infected products):
     specification elements:
        - radiotherapy equipment
