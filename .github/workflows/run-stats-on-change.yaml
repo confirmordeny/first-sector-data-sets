@@ -1,122 +1,64 @@
-import yaml
-import os # Import the os module to handle file paths
+# This is a GitHub Actions workflow file.
+# It defines a set of automated jobs.
 
-def analyze_yaml_data(yaml_string):
-    """
-    Parses a YAML string to count symbols (list items) and categories.
+# Name of the workflow, which will be displayed in the Actions tab on GitHub.
+name: 'Run YAML Stats Script'
 
-    Args:
-        yaml_string (str): A string containing the YAML data.
+# This section defines the trigger for the workflow.
+on:
+  # We want to trigger this workflow on 'push' events to the repository.
+  push:
+    # But ONLY if the push includes changes to the specified file.
+    # This prevents the script from running on every single push.
+    paths:
+      - 'prominence/list_of_prominent_functions.yaml'
 
-    Returns:
-        dict: A dictionary with statistics, or None if parsing fails.
-    """
-    stats = {
-        'total_symbols': 0,
-        'category_counts': {},
-        'total_categories': 0,
-        'all_symbols': []
-    }
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+jobs:
+  # We define a single job called 'build'.
+  build:
+    # The type of virtual machine to run the job on. 'ubuntu-latest' is a common and reliable choice.
+    runs-on: ubuntu-latest
 
-    # This recursive helper function traverses the nested dictionary structure.
-    def traverse(node):
-        """Recursively walks through the data to find and count list items."""
-        if isinstance(node, dict):
-            for key, value in node.items():
-                # If a value is a list, we assume it's a list of symbols.
-                if isinstance(value, list):
-                    # Filter out any non-string items just in case
-                    symbols_in_list = [item for item in value if isinstance(item, str)]
-                    count = len(symbols_in_list)
-                    
-                    # Update our statistics
-                    stats['total_symbols'] += count
-                    stats['category_counts'][key] = count
-                    stats['total_categories'] += 1
-                    stats['all_symbols'].extend(symbols_in_list)
-                else:
-                    # If it's another dictionary, go deeper.
-                    traverse(value)
+    # 'steps' represent a sequence of tasks that will be executed as part of the job.
+    steps:
+      # Step 1: Check out the repository's code.
+      # This action downloads a copy of your repository onto the runner,
+      # so the workflow can access your script and YAML file.
+      - name: Check out repository code
+        uses: actions/checkout@v4
 
-    try:
-        # Use safe_load to parse the YAML. It's more secure.
-        data = yaml.safe_load(yaml_string)
-        
-        # Start the traversal from the top level of the parsed data.
-        traverse(data)
-        
-        return stats
+      # Step 2: Set up the Python environment.
+      # This action installs a specific version of Python on the runner.
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    except yaml.YAMLError as e:
-        print(f"Error: Could not parse the YAML data. Details: {e}")
-        return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return None
+      # Step 3: Install dependencies.
+      # Your Python script needs the 'PyYAML' library to run.
+      # This step uses pip to install it.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyYAML
 
-# --- Main execution block ---
-if __name__ == "__main__":
-    # In a GitHub Action, GITHUB_WORKSPACE is the reliable path to the project root.
-    # We fall back to '.' for local execution.
-    project_root = os.environ.get('GITHUB_WORKSPACE', '.')
-    
-    # Define the path to the source YAML file.
-    file_path = os.path.join(project_root, 'prominence', 'list_of_prominent_functions.yaml')
-    
-    # Define the output directory and file path.
-    output_dir = os.path.join(project_root, 'statistics')
-    output_path = os.path.join(output_dir, 'stats_report.md')
-    
-    # Create the output directory if it doesn't exist.
-    os.makedirs(output_dir, exist_ok=True)
-    
-    yaml_content = None
+      # Step 4: Run the Python script.
+      # This command executes your script, which will now generate a stats_report.md file.
+      - name: Run the stats script
+        run: python ./.github/workflows/yaml_stats_script.py
 
-    # Try to open and read the file.
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            yaml_content = file.read()
-    except FileNotFoundError:
-        print(f"Error: The file was not found at the specified path: {file_path}")
-        # Exit with a non-zero code to make the GitHub Action fail clearly.
-        exit(1)
-    except Exception as e:
-        print(f"An error occurred while reading the file: {e}")
-        exit(1)
-
-    # Only proceed if the file content was successfully read.
-    if yaml_content:
-        statistics = analyze_yaml_data(yaml_content)
-
-        if statistics:
-            # Build the report as a multi-line string with Markdown formatting.
-            report_lines = [
-                "# YAML File Statistics",
-                f"**File:** `prominence/list_of_prominent_functions.yaml`",
-                f"**Total Number of Symbols (Job Titles):** {statistics['total_symbols']}",
-                f"**Total Number of Categories:** {statistics['total_categories']}",
-                "\n---",
-                "## Breakdown by Category"
-            ]
-            
-            if statistics['category_counts']:
-                for category, count in sorted(statistics['category_counts'].items()):
-                    formatted_category = category.replace('_', ' ').title()
-                    report_lines.append(f"- **{formatted_category}:** {count} symbols")
-            else:
-                report_lines.append("No categories with symbol lists were found.")
-                
-            report_content = "\n".join(report_lines)
-
-            # Write the report to the output file
-            try:
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    f.write(report_content)
-                print(f"Successfully wrote stats report to {output_path}")
-            except Exception as e:
-                print(f"Error writing report to file: {e}")
-                exit(1)
-
-            # Also print the report to the console for the logs
-            print("\n--- CONSOLE OUTPUT ---")
-            print(report_content)
+      # Step 5: Commit the generated stats file.
+      # This step checks for changes in the repository (specifically the new report file)
+      # and commits them back to the main branch.
+      - name: Commit stats report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # The commit message for the update.
+          commit_message: 'docs: Update YAML stats report'
+          # The file pattern to look for. We only want to commit the markdown report file.
+          file_pattern: 'statistics/stats_report.md'
+          # The author of the commit.
+          commit_user_name: 'GitHub Actions Bot'
+          commit_user_email: 'actions@github.com'
+          commit_author: 'GitHub Actions Bot <actions@github.com>'
