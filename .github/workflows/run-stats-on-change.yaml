@@ -36,88 +36,88 @@ jobs:
       # Step 4: Run the Python script directly.
       # The entire Python script is embedded in this step.
       - name: Run the stats script
-        # This tells the runner to execute the following block as a Python script.
-        run: python - <<'EOF'
-import yaml
-import os
+        # This tells the runner to use the Python interpreter as the shell for this step.
+        shell: python
+        run: |
+          import yaml
+          import os
 
-def analyze_yaml_data(yaml_string):
-    stats = {
-        'total_symbols': 0,
-        'category_counts': {},
-        'total_categories': 0,
-        'all_symbols': []
-    }
-    def traverse(node):
-        if isinstance(node, dict):
-            for key, value in node.items():
-                if isinstance(value, list):
-                    symbols_in_list = [item for item in value if isinstance(item, str)]
-                    count = len(symbols_in_list)
-                    stats['total_symbols'] += count
-                    stats['category_counts'][key] = count
-                    stats['total_categories'] += 1
-                    stats['all_symbols'].extend(symbols_in_list)
-                else:
-                    traverse(value)
-    try:
-        data = yaml.safe_load(yaml_string)
-        traverse(data)
-        return stats
-    except yaml.YAMLError as e:
-        print(f"Error: Could not parse the YAML data. Details: {e}")
-        return None
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return None
+          def analyze_yaml_data(yaml_string):
+              stats = {
+                  'total_symbols': 0,
+                  'category_counts': {},
+                  'total_categories': 0,
+                  'all_symbols': []
+              }
+              def traverse(node):
+                  if isinstance(node, dict):
+                      for key, value in node.items():
+                          if isinstance(value, list):
+                              symbols_in_list = [item for item in value if isinstance(item, str)]
+                              count = len(symbols_in_list)
+                              stats['total_symbols'] += count
+                              stats['category_counts'][key] = count
+                              stats['total_categories'] += 1
+                              stats['all_symbols'].extend(symbols_in_list)
+                          else:
+                              traverse(value)
+              try:
+                  data = yaml.safe_load(yaml_string)
+                  traverse(data)
+                  return stats
+              except yaml.YAMLError as e:
+                  print(f"Error: Could not parse the YAML data. Details: {e}")
+                  return None
+              except Exception as e:
+                  print(f"An unexpected error occurred: {e}")
+                  return None
 
-if __name__ == "__main__":
-    project_root = os.environ.get('GITHUB_WORKSPACE', '.')
-    file_path = os.path.join(project_root, 'prominence', 'list_of_prominent_functions.yaml')
-    output_dir = os.path.join(project_root, 'statistics')
-    output_path = os.path.join(output_dir, 'stats_report.md')
-    
-    os.makedirs(output_dir, exist_ok=True)
-    
-    yaml_content = None
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            yaml_content = file.read()
-    except FileNotFoundError:
-        print(f"Error: The file was not found at the specified path: {file_path}")
-        exit(1)
-    except Exception as e:
-        print(f"An error occurred while reading the file: {e}")
-        exit(1)
+          if __name__ == "__main__":
+              project_root = os.environ.get('GITHUB_WORKSPACE', '.')
+              file_path = os.path.join(project_root, 'prominence', 'list_of_prominent_functions.yaml')
+              output_dir = os.path.join(project_root, 'statistics')
+              output_path = os.path.join(output_dir, 'stats_report.md')
+              
+              os.makedirs(output_dir, exist_ok=True)
+              
+              yaml_content = None
+              try:
+                  with open(file_path, 'r', encoding='utf-8') as file:
+                      yaml_content = file.read()
+              except FileNotFoundError:
+                  print(f"Error: The file was not found at the specified path: {file_path}")
+                  exit(1)
+              except Exception as e:
+                  print(f"An error occurred while reading the file: {e}")
+                  exit(1)
 
-    if yaml_content:
-        statistics = analyze_yaml_data(yaml_content)
-        if statistics:
-            report_lines = [
-                "# YAML File Statistics",
-                f"**File:** `prominence/list_of_prominent_functions.yaml`",
-                f"**Total Number of Symbols (Job Titles):** {statistics['total_symbols']}",
-                f"**Total Number of Categories:** {statistics['total_categories']}",
-                "\n---",
-                "## Breakdown by Category"
-            ]
-            if statistics['category_counts']:
-                for category, count in sorted(statistics['category_counts'].items()):
-                    formatted_category = category.replace('_', ' ').title()
-                    report_lines.append(f"- **{formatted_category}:** {count} symbols")
-            else:
-                report_lines.append("No categories with symbol lists were found.")
-            report_content = "\n".join(report_lines)
-            try:
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    f.write(report_content)
-                print(f"Successfully wrote stats report to {output_path}")
-            except Exception as e:
-                print(f"Error writing report to file: {e}")
-                exit(1)
-            print("\n--- CONSOLE OUTPUT ---")
-            print(report_content)
-EOF
+              if yaml_content:
+                  statistics = analyze_yaml_data(yaml_content)
+                  if statistics:
+                      report_lines = [
+                          "# YAML File Statistics",
+                          f"**File:** `prominence/list_of_prominent_functions.yaml`",
+                          f"**Total Number of Symbols (Job Titles):** {statistics['total_symbols']}",
+                          f"**Total Number of Categories:** {statistics['total_categories']}",
+                          "\n---",
+                          "## Breakdown by Category"
+                      ]
+                      if statistics['category_counts']:
+                          for category, count in sorted(statistics['category_counts'].items()):
+                              formatted_category = category.replace('_', ' ').title()
+                              report_lines.append(f"- **{formatted_category}:** {count} symbols")
+                      else:
+                          report_lines.append("No categories with symbol lists were found.")
+                      report_content = "\n".join(report_lines)
+                      try:
+                          with open(output_path, 'w', encoding='utf-8') as f:
+                              f.write(report_content)
+                          print(f"Successfully wrote stats report to {output_path}")
+                      except Exception as e:
+                          print(f"Error writing report to file: {e}")
+                          exit(1)
+                      print("\n--- CONSOLE OUTPUT ---")
+                      print(report_content)
 
       # Step 5: Commit the generated stats file.
       - name: Commit stats report
