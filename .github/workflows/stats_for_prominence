@@ -1,0 +1,54 @@
+import yaml
+import os # Import the os module to handle file paths
+
+def analyze_yaml_data(yaml_string):
+    """
+    Parses a YAML string to count symbols (list items) and categories.
+
+    Args:
+        yaml_string (str): A string containing the YAML data.
+
+    Returns:
+        dict: A dictionary with statistics, or None if parsing fails.
+    """
+    stats = {
+        'total_symbols': 0,
+        'category_counts': {},
+        'total_categories': 0,
+        'all_symbols': []
+    }
+
+    # This recursive helper function traverses the nested dictionary structure.
+    def traverse(node):
+        """Recursively walks through the data to find and count list items."""
+        if isinstance(node, dict):
+            for key, value in node.items():
+                # If a value is a list, we assume it's a list of symbols.
+                if isinstance(value, list):
+                    # Filter out any non-string items just in case
+                    symbols_in_list = [item for item in value if isinstance(item, str)]
+                    count = len(symbols_in_list)
+                    
+                    # Update our statistics
+                    stats['total_symbols'] += count
+                    stats['category_counts'][key] = count
+                    stats['total_categories'] += 1
+                    stats['all_symbols'].extend(symbols_in_list)
+                else:
+                    # If it's another dictionary, go deeper.
+                    traverse(value)
+
+    try:
+        # Use safe_load to parse the YAML. It's more secure.
+        data = yaml.safe_load(yaml_string)
+        
+        # Start the traversal from the top level of the parsed data.
+        traverse(data)
+        
+        return stats
+
+    except yaml.YAMLError as e:
+        print(f"Error: Could not parse the YAML data. Details: {e}")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e
