@@ -56,54 +56,17 @@ def analyze_yaml_data(yaml_string):
 
 # --- Main execution block ---
 if __name__ == "__main__":
+    project_root = '.' # Default to current directory
     # Define the path to the YAML file relative to the script's new location.
-    # This makes the script more robust and runnable from different directories.
     try:
-        # Get the absolute path of the directory where the script is located.
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        # Assuming the script is in '/.github/workflows', we go up three levels to the project root.
         project_root = os.path.abspath(os.path.join(script_dir, '..', '..', '..'))
-        # Construct the full path to the YAML file from the project root.
         file_path = os.path.join(project_root, 'prominence', 'list_of_prominent_functions.yaml')
     except NameError:
-        # __file__ is not defined in some environments (like interactive interpreters).
-        # In that case, we fall back to a simple relative path. This is less robust.
-        # This assumes the script is run from the project root directory.
         file_path = os.path.join('prominence', 'list_of_prominent_functions.yaml')
     
-    yaml_content = None
-
-    # Try to open and read the file.
-    try:
-        # 'with' ensures the file is properly closed even if errors occur.
-        with open(file_path, 'r', encoding='utf-8') as file:
-            yaml_content = file.read()
-    except FileNotFoundError:
-        print(f"Error: The file was not found at the specified path: {file_path}")
-        print("Please make sure the file exists and the script is run from the correct directory.")
-    except Exception as e:
-        print(f"An error occurred while reading the file: {e}")
-
-    # Only proceed if the file content was successfully read.
-    if yaml_content:
-        # Get the statistics by calling our analysis function.
-        statistics = analyze_yaml_data(yaml_content)
-
-        # Print the results in a clean, readable format.
-        if statistics:
-            print("--- YAML File Statistics ---")
-            print(f"File: '{file_path}'")
-            print(f"Total Number of Symbols (Job Titles): {statistics['total_symbols']}")
-            print(f"Total Number of Categories: {statistics['total_categories']}")
-            print("\n--- Breakdown by Category ---")
-            
-            if statistics['category_counts']:
-                # Sort categories alphabetically for consistent output
-                for category, count in sorted(statistics['category_counts'].items()):
-                    # Format the category name for better readability
-                    formatted_category = category.replace('_', ' ').title()
-                    print(f"- {formatted_category}: {count} symbols")
-            else:
-                print("No categories with symbol lists were found.")
-                
-            print("\n--- End of Report ---")
+    # Define the output directory and file path.
+    output_dir = os.path.join(project_root, 'statistics')
+    output_path = os.path.join(output_dir, 'stats_report.md')
+    
+    # Create the output directory
