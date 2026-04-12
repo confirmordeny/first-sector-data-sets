@@ -12,6 +12,9 @@ Started in late May 2025.
 4. [District Salmon Fisheries Boards](/fisheries)
 5. [Categories of electrical waste](/waste_management)
 
+## Using this repo
+The content of this repo should not be relied upon as legal or professional advice.
+
 ## Contributing
 
 We welcome contributions.
