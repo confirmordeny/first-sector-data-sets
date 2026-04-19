@@ -35,6 +35,7 @@ This can be used to help identify companies owned by UK Central Government.
 - Secretary Of State For The Department Of Energy Security And Net Zero
 - Secretary Of State For The Energy Security And Net Zero
 - Secretary of State
+- Secretary of State For Business Innovation And Skills Acting Through Ordnance Survey
 - Secretary of State for Air
 - Secretary of State for Burma
 - Secretary of State for Business and Trade
