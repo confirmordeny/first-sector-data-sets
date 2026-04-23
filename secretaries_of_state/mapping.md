@@ -17,7 +17,7 @@
 | Secretary of State for Commonwealth Relations | Q7444337 | Commonwealth Relations Office |
 | Secretary of State for Communities and Local Government | No code found. | Department for Communities and Local Government |
 | Secretary of State for Constitutional Affairs | Q7444338 | Department for Constitutional Affairs |
-| Secretary of State for Culture, Olympics, Media and Sport | No code found. | Department for Culture, Olympics, Media and Sport |
+| Secretary of State for Culture, Olympics, Media and Sport | Q139516290 | Department for Culture, Olympics, Media and Sport |
 | Secretary of State for Culture, Media and Sport | Q3297079 | Department for Culture, Media and Sport |
 | Secretary of State for Defence | Q2747647 | Ministry of Defence |
 | Secretary of State for Digital, Culture, Media and Sport | No code found. | Department for Digital, Culture, Media and Sport |
