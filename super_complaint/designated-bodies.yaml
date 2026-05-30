@@ -1,35 +1,34 @@
 # See https://www.legislation.gov.uk/uksi/2018/748/made
 # List reproduced under Open Government Licence
-# not good yaml yet
 
-(a)Action on Elder Abuse, a company registered in England and Wales with the registration number 07290092;
-
-(b)Advocacy After Fatal Domestic Abuse, a company registered in England and Wales with the registration number 09527065;
-
-(c)Centre for Women’s Justice, a company registered in England and Wales with the registration number CE008821;
-
-(d)the Children’s Commissioner for England;
-
-(e)Criminal Justice Alliance, a company registered in England and Wales with the registration number 06331413;
-
-(f)Faith Matters, a company registered in England and Wales with the registration number 06082225;
-
-(g)Galop, a company registered in England and Wales with the registration number 02969307;
-
-(h)Hestia, a company registered in England and Wales with the registration number 02020165;
-
-(i)Liberty, a company registered in England and Wales with the registration number 03260840;
-
-(j)Missing People, a company registered in England and Wales with the registration number 02814202 ;
-
-(k)Pathway Project, a company registered in England and Wales with the registration number 02635912;
-
-(l)Southall Black Sisters, a company registered in England and Wales with the registration number 03037955;
-
-(m)Suzy Lamplugh Trust, a company registered in England and Wales with the registration number 02417823;
-
-(n)Tees Valley Inclusion Project, a company registered in England and Wales with the registration number 07882456;
-
-(o)Welsh Women’s Aid, a company registered in England and Wales with the registration number 07483469;
-
-(p)Women’s Aid Federation of England, a company registered in England and Wales with the registration number 03171880
+Action on Elder Abuse:
+  - Registration_number: 07290092
+Advocacy After Fatal Domestic Abuse:
+  - Registration_number: 09527065
+Centre for Women’s Justice:
+  - Registration_number: CE008821
+Children’s Commissioner for England: null
+Criminal Justice Alliance:
+  - Registration_number: 06331413
+Faith Matters:
+  - Registration_number: 06082225
+Galop:
+  - Registration_number: 02969307
+Hestia:
+  - Registration_number: 02020165
+Liberty:
+  - Registration_number: 03260840
+Missing People:
+  - Registration_number: 02814202
+Pathway Project:
+  - Registration_number: 02635912
+Southall Black Sisters:
+  - Registration_number: 03037955
+Suzy Lamplugh Trust:
+  - Registration_number: 02417823
+Tees Valley Inclusion Project:
+  - Registration_number: 07882456
+Welsh Women’s Aid:
+  - Registration_number: 07483469
+Women’s Aid Federation of England:
+  - Registration_number: 03171880
